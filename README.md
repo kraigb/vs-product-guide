@@ -1,10 +1,11 @@
-## Visual Studio features for web developers
+## Visual Studio Product Guide Site
+(Cloned from https://github.com/aspnet/vsweb-docs)
 
 [![Build status](https://ci.appveyor.com/api/projects/status/3s1bavm412p4bwp6?svg=true)](https://ci.appveyor.com/project/madskristensen/vsweb-docs)
 
 [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
 
-Website: [vsweb.azurewebsites.net/](http://vsweb.azurewebsites.net/)
+Website: [vs-product-guide9c29.azurewebsites.net/](http://vs-product-guide9c29.azurewebsites.net/)
 
 ### Features
 

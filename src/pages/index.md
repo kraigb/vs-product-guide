@@ -1,19 +1,16 @@
 <properties
-	pageTitle="Home"
-	description="Visual Studio gives you the tools and flexibility you need to create and deploy modern web applications today."
-	slug="home"
-	keywords="visual studio, visualstudio, vs, vs2012, vs2013, vs2015, dev11, dev12, dev14"
+    pageTitle="home"
+    description="Welcome to Visual Studio 2015"
+    slug="Home"    
+    keywords="visual studio, team foundation server, visual studio online, vs2015, vs, visualstudio, tfs, vso"
 />
 
-## Web development in Visual Studio
+## Welcome to Visual Studio 2015
 
-Visual Studio is the best integrated development environment for the web, devices, and the cloud.
+Every developer and every team, any app on any platform: that is our aspiration for Visual Studio. From Microsoft's first BASIC interpreter in 1975, to the introduction of Visual C++ and Visual Studio in the mid-1990s, and now to Visual Studio 2015, Microsoft continues a long-standing dedication to help developers achieve more.
 
-Features like [IntelliSense](http://go.microsoft.com/fwlink/?LinkId=532997), [Browser Link](http://www.asp.net/visual-studio/overview/2013/using-browser-link), [snippets](https://msdn.microsoft.com/library/ms165392.aspx), and [debuggers](https://msdn.microsoft.com/library/ms165008.aspx) work with the languages and frameworks of your choice.  Be more productive developing in [HTML, JavaScript, and CSS as well as the .NET languages](/languages/).  Use the [web development frameworks](/frameworks/) of your choice, including Angular, Knockout, and Bootstrap on the client, PHP, Django, and ASP.NET on the server, and many others.
+In addition to delivering many new features for web, cloud, and Windows development, our newest version, Visual Studio 2015, extends beyond traditional platforms and enables developers to target a rich set of mobile platforms including iOS, Android, and Windows. Mobile development is possible with in-box Apache Cordova platform support and C++ cross-platform library development, Xamarin for building native apps using C# and Visual Studio, and Unity for building graphics and gaming apps. And Visual Studio Code, in preview, brings a powerful editing experience to developers working on Windows, Linux, and Mac OS X.
 
-For source control Visual Studio has [Git](https://www.visualstudio.com/get-started/code/share-your-code-in-git-vs) as well as [TFVC (TFS)](https://www.visualstudio.com/en-us/get-started/code/share-your-code-in-tfvc-vs) support built-in.  And the  NuGet, Bower, and npm [package managers](/package-managers/) make it easy to leverage open source packages in your applications.
+Developers can also take advantage of our continued investment into Python and Node.js tooling, which in combination with the open-source .NET Core provides developers with a variety of choices to build code that runs on Windows Server, Linux, or Mac OS X for server-side applications.
 
-For teams working across multiple platforms, Visual Studio provides a flexible collaboration environment that welcomes connection with other development tools,  such as Eclipse and Xcode.
-
-And for the best application lifecycle management and continuous integration tools, check out [Visual Studio Online](https://www.visualstudio.com/en-us/explore/app-lifecycle-management-vs.aspx).
-
+Modern development, too, depends on much more than just code: team agility across the entire development lifecycle is critical to the continuous delivery that customers expect. From team collaboration, to DevOps and release management, to cross-platform monitoring in production environments, the Visual Studio 2015 family—including Visual Studio Online and Team Foundation Server 2015, with new support for non-Windows platforms and third-party tools—gives teams the flexibility to create the environment they need, both in the cloud and on-premises.
