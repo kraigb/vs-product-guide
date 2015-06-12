@@ -1,7 +1,7 @@
 <properties
     pageTitle="Cross Platform Mobile"
     description="Cross-platform Mobile Apps for iOS, Android, and Windows"
-    slug="Cross-Platform Mobile"
+    slug="crossplatmobile"
     order="200"    
     keywords="visual studio, team foundation server, visual studio online, vs2015, vs, visualstudio, tfs, vso"
 />

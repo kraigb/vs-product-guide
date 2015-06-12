@@ -1,9 +1,9 @@
 <properties
 	pageTitle="Visual Studio Online and TFS 2015"
 	description="TODO"
-	slug="vso-tfs2015"
+	slug="vsotfs2015"
     order="200"
-	keywords="TODO"
+	keywords="visual studio, visualstudio, visual studio online, team foundation server, tfs, team explorer everywhere, release management"
 />
 
 ## Visual Studio Online and Team Foundation Server 2015 (RC)

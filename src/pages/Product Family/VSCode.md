@@ -3,7 +3,7 @@
 	description="TODO"
 	slug="vscode"
     order="300"
-	keywords="TODO"
+	keywords="visual studio, visual studio code, visualstudio"
 />
 ## Visual Studio Code (Preview)
 
