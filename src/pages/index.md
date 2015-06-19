@@ -1,5 +1,5 @@
 <properties
-    pageTitle="home"
+    pageTitle="Home"
     description="Welcome to Visual Studio 2015"
     slug="home"    
     keywords="visual studio, team foundation server, visual studio online, vs2015, vs, visualstudio, tfs, vso"
