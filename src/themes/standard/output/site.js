@@ -234,7 +234,7 @@ var dataService = (function () {
     }
 
     function fadeImagesIntoView() {
-        if (fadingInProgress) return;
+/*        if (fadingInProgress) return;
 
         fadingInProgress = true;
 
@@ -252,6 +252,7 @@ var dataService = (function () {
 
             fadingInProgress = false;
         }, 200);
+*/
     }
 
     document.body.addEventListener("click", onBodyClick, false);

@@ -180,6 +180,7 @@
     }
 
     function fadeImagesIntoView() {
+/*
         if (fadingInProgress) return;
 
         fadingInProgress = true;
@@ -198,6 +199,7 @@
 
             fadingInProgress = false;
         }, 200);
+*/
     }
 
     document.body.addEventListener("click", onBodyClick, false);

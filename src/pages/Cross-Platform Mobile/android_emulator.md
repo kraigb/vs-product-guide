@@ -1,13 +1,12 @@
 <properties
     pageTitle="Android Emulator"
-    description="The Visual Studio Emulator for Android is based on Hyper-V, and is targetable by any Android project with configurable images such as Lollipop and KitKat. "
+    description="The Visual Studio Emulator for Android is based on Hyper-V, and is targetable by any Android project with configurable images such as Lollipop and KitKat."
     slug="androidemulator"
     order="400"    
     keywords="visual studio, vs2015, vs, visualstudio, cross-platform, mobile apps, iOS, Android, Windows Phone, Android emulator"
 />
 
 You can use the Visual Studio Emulator for Android either in a cross-platform project in Visual Studio (Xamarin or C++), or in Visual Studio Tools for Apache Cordova. The emulator allows you to switch between different platform emulators without Hyper-V conflicts. It supports a wide variety of sensors and simulations, including GPS/Location, accelerometer, screen rotation, zoom, SD card, installation of APKs, camera, multi-touch, drag-and-drop, power/battery, keyboard input, network access, WiFi simulation, and OpenGL. It also supports Android versions 4.4 (KitKat, API Level 19) and 5.0 (Lollipop, API Level 21). 
-
 
 ## Debugging with the Visual Studio Emulator for Android
 
@@ -62,6 +61,7 @@ Instead of having each map point immediately change the GPS location of the emul
 
 Finally, you can choose a third mode that is similar to “Pin”, which is called **“Route” mode**. In this mode you can also simulate transitions between the points but with some additional twists. The simulator will calculate an actual path between the points and generate invisible points at 1 second intervals between the points you choose. The overall speed at which it will play those points is determined by a second setting and your options are: “Walking” (5 kilometers per hour), “Biking” (25 km/h), “Speed Limit” (variable dependent on map point), and “Fast”.
 
+
 ### Accelerometer
 
 If your app tracks and responds to movement of the phone, you can test them using the “Accelerometer” tab when you open the “Additional Tools”.
@@ -102,6 +102,7 @@ You can also drag and drop other (non-APK) files to the emulator and they will b
 
 If your app has a need to read or write to the SD card of the target, the emulator simulates that by making available a folder representing an SD card.
 
+<TODO: move this stuff to how-to docs.>
 Note that the Android image uses a separate VHD for SD card support. So if you want to transfer files to/from the SD card on your development machine, you can mount the VHD to Windows: Close the emulator (to shut down the VM), then navigate to the VHD location in Windows explorer, and double click the VHD to mount it. By default the VHD is located under the path:
 
 	%localappdata%\Microsoft\VisualStudioEmulator\Android\Containers\Local\Devices\vhd\[device profile name]\image.sdcard.vhd, where [device profile name] is the name of the Device Profile that you are running.
@@ -144,5 +145,8 @@ You use the Emulator Manager to install, uninstall, and start device profiles. B
 ![Android emulator manager](_assets/emulator-12.png)
 
 Once you've installed the set of profiles that you'd like to target, you can start these new profiles directly from the manager by pressing the green "Play" button.
+
+
+
 
 
