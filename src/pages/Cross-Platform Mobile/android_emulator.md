@@ -10,9 +10,9 @@
 
 ## Summary
 
-The Visual Studio Emulator for Android emulates physical devices such as phones or tablets on your computer, letting you test your apps against a wide variety of virtual devices. Except for making phone calls, the Emulator simulates all of the features of an actual physical device, including accelerometer, screen rotation, GPS Location, camera, power and battery level, network access, WiFi, and OpenGL. It simulates keyboard input, multi-touch, drag-and-drop, and zoom.
+The *Visual Studio Emulator for Android* emulates physical devices such as phones or tablets on your computer, letting you test your apps against a wide variety of virtual devices. Except for making phone calls, the Emulator simulates all of the features of an actual physical device, including accelerometer, screen rotation, GPS Location, camera, power and battery level, network access, WiFi, and OpenGL. It simulates keyboard input, multi-touch, drag-and-drop, and zoom.
 
-You can use the Emulator in Visual Studio *Xamarin* or *C++* cross-platform projects, or in *Visual Studio Tools for Apache Cordova*. The Emulator lets you switch between different virtual devices without Hyper-V conflicts. It supports Android versions 4.4 (KitKat, API Level 19) and 5.0 (Lollipop, API Level 21).
+You can use the *Emulator* in Visual Studio *Xamarin* or *C++* cross-platform projects, or in *Visual Studio Tools for Apache Cordova*. The *Emulator* lets you switch between different virtual devices without Hyper-V conflicts. It supports Android versions 4.4 (KitKat, API Level 19) and 5.0 (Lollipop, API Level 21).
 
 
 
@@ -20,7 +20,7 @@ You can use the Emulator in Visual Studio *Xamarin* or *C++* cross-platform proj
 
 Testing your Android app for compatibility across the staggering variety of Android hardware can be a challenge. Android phones and tablets in the market span a wide range of versions and screen sizes and come in many different hardware configurations (RAM, CPU architecture, number of cores, and so on). Making sure that your app works as expected for the most popular devices on the market can be difficult. 
 
-The Visual Studio Emulator for Android addresses this problem by introducing Device Profiles. A curated set of device profiles represents the most popular hardware in the market, including devices from Samsung, Motorola, Sony, LG, and others, and is pre-installed. A wider selection is available by using the **Emulator Manager** to install and start different device profiles.
+The *Visual Studio Emulator for Android* addresses this problem by introducing **Device Profiles**. A curated set of device profiles represents the most popular hardware in the market, including devices from Samsung, Motorola, Sony, LG, and others, and is pre-installed. A wider selection is available by using the **Emulator Manager** to install and run additional device profiles.
 
 ### Pre-installed device profiles
 
@@ -90,13 +90,13 @@ Unless your app only supports a fixed orientation, you should test how your app 
 
 ### Location (GPS)
 
-If your app does anything with navigation, geofencing, walking, biking, or driving, you can use the location and driving simulation tools in the emulator to create repeatable, realistic tests. The location tools is found under the **Location** tab in **Additional Tools**.
+If your app does anything with navigation, geofencing, walking, biking, or driving, you can use the location and driving simulation tools in the emulator to create repeatable, realistic tests. The location tools are found under the **Location** tab in **Additional Tools**.
 
 ![Geolocation](_assets/emulator-6.png)
 
 You can navigate the map by dragging it around, by zooming in and out, or even by searching for a location. You can place and remove pins on the map, creating **map points**. These appear as latitude-longitude coordinates in the list in the bottom left. From the toolbar at the top you can even save those map points to an XML file and later load them from the file.
 
-Instead of having each map point immediately change the GPS location of the emulator (**Live mode**), you have other options. You can place a few map points and then simulate transitioning between those points. To do that, in the toolbar at the top switch from **Live mode** to **Pin mode**. Then press the small play button at the end of the toolbar to transition between the map points. You can even enter a transition interval (in seconds).
+Instead of having each map point immediately change the GPS location of the emulator (**Live mode**), you have other options. You can place a few map points and then simulate transitioning between those points. To do that, in the toolbar at the top switch from **Live mode** to **Pin mode**. Then press the small **Play** button at the end of the toolbar to transition between the map points. You can even enter a transition interval (in seconds).
 
 Finally, you can choose **Route mode**, which is similar to **Pin**. In Route mode you can set additional options for the simulated transitions between points. The simulator calculates an actual path between the points and generates invisible points at 1 second intervals between the points you choose. The playback speed can be set to *Walking* (5 kilometers per hour), *Biking* (25 km/h), *Speed Limit* (variable dependent on map point), and *Fast*.
 
@@ -154,9 +154,13 @@ If your app makes use of more than one simultaneous touch point (for example, fo
 
 Selecting **Multi-touch Input** overlays three dots on the screen. The two large outer dots act as touch points for pinching and zooming, and the inner dot controls the origin for the touch points. If you're using the emulator on a touchscreen you can use your fingers to directly interact with the emulator screen.
 
-### Audio Playback, Keyboard Text Input
+### Audio Playback 
 
-The audio output by the emulated device is played back through your computer's speakers. When the emulator displays an on-screen keyboard, you can use your computer's keyboard to enter text directly. 
+The audio output by the emulated device is played back through your computer's speakers. 
+
+### Keyboard Text Input
+
+When the emulator displays an on-screen keyboard, you can use your computer's keyboard to enter text directly. 
 
 
 
