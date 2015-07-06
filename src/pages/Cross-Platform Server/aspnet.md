@@ -1,13 +1,10 @@
 <properties
     pageTitle="ASP.NET and Entity Framework"
-    description="Both ASP.NET 5 and Entity Framework 7 have been designed to be ready for cloud deployments by reducing its memory footprint and increasing its throughput. Both are also open source and cross platform and are able to run on the traditional .NET Framework 4.6 and the new cloud-optimized .NET Core 5."
+    description="ASP.NET 5 and Entity Framework 7 have been optimized for cloud deployments by reducing their memory footprint and increasing their throughput. They are open source and cross platform and are able to run on the traditional .NET Framework 4.6 as well as the new cloud-optimized .NET Core 5."
     slug="servernetfx"
     order="200"    
     keywords="visual studio, vs2015, vs, visualstudio, cross-platform, server, linux, windows"
 />
-
-The latest version of the .NET Framework includes the next-generation JIT compiler, CLR performance improvements, DateTime to Unix time support, garbage collector updates, cryptography updates, and compatibility switches. Details can be found on the [.NET Framework 4.6](../../windows/windowsnetfx) topic and also [.NET Core](netcore).  
-
 
 ## ASP.NET 5
 
@@ -28,7 +25,6 @@ ASP.NET 5 has the following overall characteristics:
 - ASP.NET 5 runs on OS X and Linux with the Mono runtime.
 
 To optimize ASP.NET 5 Preview project development experiences in Visual Studio, new Visual Studio features include new templates, a new project system, combined IntelliSense to support multi-framework targeting, an updated NuGet package manager, editor improvements, runtime updates, and much more.
- 
 
 ## Templates 
 - **New templates:** The "ASP.NET 5 Empty" and "ASP.NET 5 Starter Web" templates are added to "New ASP.NET Project" dialog for C#. The "ASP.NET 5 Class Library" and "ASP.NET 5 Console Application" templates are also added to "New Project" dialog under "Visual C#"/Web.
@@ -183,3 +179,8 @@ EF7 can be used in the .NET Framework, .NET Core (including ASP.NET 5) and Mono 
 - An early preview of reverse engineering a model from a database
 - Logging
 - Unique constraints including the ability to use them as keys in a relationship
+
+### .NET Framework
+
+ASP.NET 5 and EF 7 run on the latest version of the .NET Framework, which includes the next-generation JIT compiler, CLR performance improvements, DateTime to Unix time support, garbage collector updates, cryptography updates, and compatibility switches. Details can be found on the [.NET Framework 4.6](../../windows/windowsnetfx) topic and also [.NET Core](netcore).  
+
