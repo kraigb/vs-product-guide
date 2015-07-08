@@ -1,6 +1,6 @@
 <properties
     pageTitle="IntelliTest for .NET"
-    description="IntelliTest automatically generates unit tests for your code and increases code path coverage."
+    description="IntelliTest automatically generates unit tests for your code to increase code path coverage dramatically."
     slug="testing"
     order="400"    
     keywords="visual studio, vs2015, vs, visualstudio, productivity, ide, testing, IntelliTest, unit tests, unit testing"
