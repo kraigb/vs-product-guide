@@ -22,7 +22,7 @@ Key features include:
 
 If you feel at home with HTML, CSS, and JavaScript, Visual Studio 2015 makes it easy for you to create native apps for Windows 10 as well as for Android and iOS using a shared codebase.
 
-![Developing cross-platform Cordova apps](_assets/Windows10-3.png)
+![Developing cross-platform Cordova apps](_assets/windows10-3.png)
 
 All of this is made possible with our collaboration with and investment in Apache Cordova. Not only will you be able to access native device APIs (e.g. camera, calendar, contacts, barcode scanner, and more) through JavaScript, because your apps take advantage of native webviews, you can take your favorite JavaScript framework with you, like Angular, React, Ionic, and WinJS.
 
@@ -34,11 +34,11 @@ Windows 10 provides the ability to use a single UI that can adapt from small to 
 
 In the example below a different layout is used for the desktop and the phone app.
 
-![Adaptive UI](_assets/Windows10-4.png)
+![Adaptive UI](_assets/windows10-4.png)
 
 You can then use the new device toolbar above the designer to preview your layout on a range of devices.
 
-![Device toolbar for previewing layout](_assets/Windows10-5.png)
+![Device toolbar for previewing layout](_assets/windows10-5.png)
 
 ## Tailoring your app for a particular device
 
@@ -46,23 +46,23 @@ New Windows 10 API contracts and the extension SDKs allow you to adapt your code
 
 You can choose to tailor your app to light up additional device-specific capabilities using adaptive code patterns. You can reference an Extension SDK that supplies device specific APIs and write code that checks for the presence of the API when running on any device before code execution.
 
-![Mobile extension SDK for universal windows apps](_assets/Windows10-6.png)
+![Mobile extension SDK for universal windows apps](_assets/windows10-6.png)
 
 In the example above, we have added a reference to a Mobile extension SDK. Wrapping the access to such an API in an if block allows for the code execution to be bypassed when the app is running on any Windows 10 device that does not support the API.
 
-![Testing device capabilities](_assets/Windows10-7.png)
+![Testing device capabilities](_assets/windows10-7.png)
 
 ## Testing your Universal Windows apps on a PC and phone
 
 You can deploy a Universal Windows app to any device running Windows 10. You can pick which device to test your app on from the emulator dropdown.
 
-![Visual Studio emulator dropdown](_assets/Windows10-7.png)
+![Visual Studio emulator dropdown](_assets/windows10-7.png)
 
 ## Targeting versions of Universal Windows
 
 Going forward we will be adding new capabilities to the Windows 10 developer tools. You can set which the minimum version of the platform you can install your app on. You can also specify which version you build against on your machine using target version.
 
-![Specifying Windows targets](_assets/Windows10-8.png)
+![Specifying Windows targets](_assets/windows10-8.png)
 
 ## Debugging support
 
