@@ -6,7 +6,7 @@
     keywords="visual studio, vs2015, vs, visualstudio, cross-platform, mobile apps, iOS, Android, Windows Phone, JavaScript, Cordova, hybrid app"
 />
 
-If you know how to build web apps, you’ll quickly feel at-home building mobile apps for iOS, Android and Windows using Apache Cordova. Most developers achieve nearly 100% code re-use by leveraging Cordova’s shared JavaScript API to access native device capabilities like the camera, calendar and contacts.
+If you know how to build web apps, you’ll quickly feel at-home building mobile apps for iOS, Android, and Windows using Apache Cordova. Most developers achieve nearly 100% code re-use by leveraging Cordova’s shared JavaScript API to access native device capabilities like the camera, calendar and contacts.
 
 Plus, because hybrid apps make use of native webviews, you can take your favorite JavaScript framework with you – frameworks like Angular, React and Ionic.
 
@@ -58,13 +58,13 @@ Best of all, you can access native device capabilities through a common JavaScri
 
 ![Native capabilities](_assets/cordova-4.png)
 
-## CLI interoperability.
+## CLI interoperability
 
 Cordova projects in Visual Studio synchronize with changes made to your project folder on-disk. Changes can flow in and out of Visual Studio whether you’re working with third-party tools or on other operating systems. (The default file structure for Cordova projects is based on the structure expected by the Apache Cordova command-line tools, which makes it easier to work directly with the Apache Cordova CLI or other tools that expect that folder structure.)
 
 ## Connect to data
 
-Visual Studio and Azure provide the tools and services necessary to deliver a personalized experience across all your devices – phones, tablets, desktops, TVs and “things” running iOS, Android and Windows.
+Visual Studio and Azure provide the tools and services necessary to deliver a personalized experience across all your devices – phones, tablets, desktops, TVs, and “things” running iOS, Android, and Windows.
 
 With just a few lines of code, you can:
 
