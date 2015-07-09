@@ -8,10 +8,10 @@
 
 ## Type system improvements
 
-- **Union types:** JavaScript functions may take a number of possible argument types, typically supported using function overloads. Uniton types allow you to specify that that a value is one of a number of different types. Union types also allow for better type inference in arrays and other places where you might have multiple kinds of values in a collection.
+- **Union types:** JavaScript functions may take a number of possible argument types, typically supported using function overloads. Union types allow you to specify that a value is one of a number of different types. Union types also allow for better type inference in arrays and other places where you might have multiple kinds of values in a collection.
 - **Stricter generics:** with union types able to represent a wide range of type scenarios, Typescript applies more strictness to certain generic calls to catch certain coding errors.
 - **Type aliases:** allow defining alternate names for the original types using the **type** keyword.
-- **Const enums:** For heavy uses of enums, it's helpful to have an even more restricted form that we know is safe to always inline. This helps with performance, code size, and with working with cases where the enum aliases themselves may not be exported.
+- **Const enums:** For heavy uses of enums, it's helpful to have an even more restricted form that we know is safe to always inline. This helps with performance, code size, and with cases where the enum aliases themselves may not be exported.
 - **Type guards:** A common pattern in JavaScript is to use typeof or instanceof to examine the type of an expression at runtime. TypeScript understands these conditions and will change type inference accordingly when used in an if block.
 
 
