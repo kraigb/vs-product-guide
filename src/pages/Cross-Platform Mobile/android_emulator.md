@@ -12,7 +12,7 @@
 
 The *Visual Studio Emulator for Android* emulates physical devices such as phones or tablets on your computer, letting you test your apps against a wide variety of virtual devices. Except for making phone calls, the Emulator simulates all of the features of an actual physical device, including accelerometer, screen rotation, GPS Location, camera, power and battery level, network access, WiFi, and OpenGL. It simulates keyboard input, multi-touch, drag-and-drop, and zoom.
 
-You can use the *Emulator* in Visual Studio *Xamarin* or *C++* cross-platform projects, or in *Visual Studio Tools for Apache Cordova*. The *Emulator* lets you switch between different virtual devices without Hyper-V conflicts. It supports Android versions 4.4 (KitKat, API Level 19) and 5.0 (Lollipop, API Level 21).
+You can use the Emulator in Visual Studio *Xamarin* or *C++* cross-platform projects, or in *Visual Studio Tools for Apache Cordova*. The Emulator lets you switch between different virtual devices without Hyper-V conflicts. It supports Android versions 4.2 (JellyBean, API Level 17), 4.4 (KitKat, API Level 19), 5.0 (Lollipop, API Level 21), and 5.1 (Lollipop, API Level 22).
 
 
 
@@ -40,11 +40,11 @@ And for C++ projects:
 
 ### Installing Device Profiles with Emulator Manager
 
-If none of the pre-installed profiles meets your requirements, you can install additional profiles. In Visual Studio 2015, use the **Tools** > **Visual Studio Emulator for Android** menu to start the **Emulator Manager**.
+If none of the pre-installed profiles meets your requirements, you can install additional profiles. In Visual Studio 2015, use the **Tools** > **Visual Studio Emulator for Android** menu to start the **Emulator Manager** (or access the manager from the Start menu).
 
 ![Android emulator options](_assets/emulator-11.png)
 
-You use the **Emulator Manager** to install, uninstall, and start device profiles. By default, four device profiles (KitKat and Lollipop phone/5" and tablet/7" configurations) are installed, as indicated by the white text and icons. Other profiles in the list appear grayed out until you click the **Install Profile** button and the installation completes. You can filter the list by API Level (currently 19 and 21) and click the details arrow on the bottom right-hand side of a profile to view its full configuration details.
+You use the **Emulator Manager** to install, uninstall, and start device profiles. By default, two device profiles (KitKat phone/5" and tablet/7" configurations) are installed, as indicated by the white text and icons. Other profiles in the list appear grayed out until you click the **Install Profile** button and the installation completes. You can filter the list by API Level (currently 19 and 21) and click the details arrow on the bottom right-hand side of a profile to view its full configuration details.
 
 ![Android emulator manager](_assets/emulator-12.png)
 
@@ -56,11 +56,11 @@ Once you've installed the set of profiles that you'd like to target, you can sta
 
 Compiling an Android app creates an *application package file*, known as an APK, which you install onto a virtual device for testing. The Emulator can also load other files onto a simulated SD card. Once you have chosen (and if necessary, installed) a virtual device, press F5 and your app will be compiled and deployed to the emulator. 
 
-The emulator fully supports Visual Studio debugging. You can set breakpoints in your code, see the call stack, inspect variables, and so on.
+The emulator fully supports Visual Studio debugging. You can set breakpoints in your code, view the call stack, inspect variables, and so on.
 
 #### Install APKs through drag and drop
 
- You can also install an APK on the Visual Studio Emulator for Android by dragging it onto the emulator from Windows Explorer. You will see a message in the emulator indicating progress “File transfer in progress…” followed by a message box “File **foo** installed successfully in Android”. Remember to make sure your APKs have code built for x86!
+ You can also install an APK on the Visual Studio Emulator for Android by dragging it onto the emulator from Windows Explorer. You will see a message in the emulator indicating progress “Installing 'foo'” followed by a message box “APK **'foo'** installed successfully”. Remember to make sure your APKs have code built for x86!
 
 #### SD Card
 
