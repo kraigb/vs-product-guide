@@ -1,6 +1,6 @@
 <properties
     pageTitle="IDE Improvements"
-    description="TODO"
+    description="Visual Studio is all about developer productivity, and Visual Studio 2015 continues to make significant investments to help developers get more done in less time."
     slug="ide"
     order="100"    
     keywords="visual studio, vs2015, vs, visualstudio, productivity, ide"
@@ -32,15 +32,26 @@ The code editor UI and editing experiences for C# and Visual Basic have been rep
 ## UI Improvements
 
 - **Custom Window Layouts:** Save custom window layouts by clicking Save Window Layout from the Window menu, and apply a custom layout by clicking Apply Window Layout from the Window menu. You can also apply a layout by using the pre-assigned keyboard shortcuts. The first nine layouts also have keyboard shortcuts from Ctrl+Alt+1 to Ctrl+Alt+9. Other tasks you can perform include deleting, renaming, and reordering  layouts by clicking Manage Window Layout from the Window menu.
+
+    ![Custom window layouts](_assets/window-layouts.png)
+
 - **XAML Designer:** You can your Templates and Styles stored in external resource dictionaries within the context of your usage. This experience has been further refined to use Peek to enable a true in-situ resource editing in the XAML designer.
 - **High-Resolution Icons:** Visual Studio 2015 supports high resolution icons in command bars, tool window toolbars (standard), the main menus, error list, status bar, and some Solution Explorer project types when your device is running at greater than 100% DPI scaling. High-resolution icons are also supported for extensions.
 - **Menu casing:** Menus appear in Title Case style instead of ALL CAPS style.
+
+    ![Menu casing](_assets/menu-casing.png)
+
 - **Touch support:** The Visual Studio editor supports scrolling (tapping-and-dragging on the editor surface on the regular and enhanced scrollbars), pinch-to-zoom, select a whole line by tapping in the editor margin, select words by double-tapping them, and press-and-hold to invoke the editor context menu.
+
+    ![IDE touch support](_assets/touch-support.png)
+
 - The **Configuration and Platform dropdown values** for the Visual C++ Property Page dialog remember the last user selection when the property page is closed and reopened.
-- **Send a Frown:** offers better tools to report slowness, hangs, and crashes. You can attach files or tag your feedback, to better describe the issue as well. Furthermore, the Feedback icons and menu items have been updated to improve discoverability.
+- **Send a Smile/Frown:** offers better tools to report slowness, hangs, and crashes. You can attach files or tag your feedback, to better describe the issue as well. Furthermore, the Feedback icons and menu items have been updated to improve discoverability.
 - **Add-ins are no longer supported** in Visual Studio 2015; add-in project templates and the Add-in Manager have been removed. You should convert your add-ins to VSPackage extensions. For more information, see FAQ: Converting Add-ins to VSPackage Extensions.
 - **Touch gestures in the Visual Studio editor** give developers flexible input modalities, and are especially powerful with large touch screens in team collaboration environments. Gestures include scrolling, pinch-zoom, line selection, and press-and-hold to invoke context menus.
 - **Add Connected Services** makes it easy for developers to consume service APIs in their client and web applications including Microsoft Services such as Office 365 APIs, Azure Storage, and third-party services (through extensions).
+- **Synchronized Settings (roaming settings)** in Visual Studio 2015 improves upon the roaming features first introduced with Visual Studio 2013. It adds more settings and synchronizes across the Visual Studio product family including different SKUs and Blend. You can access your settings by typing "sync" in Quick Launch, or navigating to Tools > Options >Environment > Synchronized Settings.
+- **Notification Hub UI** is streamlined to make it easier to scan quickly. Additional kinds of notifications have been added including performance issues, rendering issues, and crashes, and you can now tell Visual Studio to stop showing a notification. 
 
 
 ## Shared Projects
@@ -87,8 +98,15 @@ You, like many other developers today, take advantage of multiple cloud services
 
 In the past, each of these services required a separate sign-in process, and each service managed the signed-in user state separately.
 
-Visual Studio 2015 reduces the authentication prompts required to access many integrated cloud services in Visual Studio. Now, when you authenticate to the first cloud service in Visual Studio, we will automatically sign you in, or reduce the authentication prompts for other integrated cloud services.
+Visual Studio 2015's streamlined sign-in experience is designed to greatly simplify your access to online resources, even when you have multiple Visual Studio accounts. After you sign-in to Visual Studio, you are automatically signed in to all instances of Visual Studio 2015 and Blend on your machine. 
 
+In Visual Studio 2015, your account is shared across features so, as long as you have a good token, you can access your Visual Studio Online account(s) from Team Explorer, and resources and websites from your Microsoft Azure subscription in Server Explorer. You’ll also see your Azure resources in the New Project Dialog for Application Insights projects, and you’ll see your Azure Mobile, Azure Storage, Office 365, and Salesforce.com developer accounts in the new Add a Connected Service dialog. 
+
+You can work with multiple user accounts in Visual Studio by adding them as you go or through the Account Manager. Then, you can switch between those accounts on the fly when connecting to services or accessing online resources. Visual Studio remembers the accounts you add so you can use them from any instance of Visual Studio or BlendVisual Studio also roams the list of accounts (though not your valuable credentials) with your Personalization account so you can quickly start working with one of those accounts on another device. Of course, you can remove accounts from the Account Settings dialog at any time. 
+
+For more details, refer to [Work with multiple user accounts](https://msdnstage.redmond.corp.microsoft.com/en-us/library/dn872465(v=vs.140).aspx).
+
+![Visual Studio single sign-in](_assets/single-sign-in.gif)
 
 ## XAML Language Service
 
