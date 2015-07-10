@@ -94,12 +94,6 @@ Instead of having each map point immediately change the GPS location of the emul
 
 Finally, you can choose **Route mode**, which is similar to **Pin**. In Route mode you can set additional options for the simulated transitions between points. The simulator calculates an actual path between the points and generates invisible points at 1 second intervals between the points you choose. The playback speed can be set to *Walking* (5 kilometers per hour), *Biking* (25 km/h), *Speed Limit* (variable dependent on map point), and *Fast*.
 
-### Camera
-
-If your app uses the camera (by using an appropriate API), the emulator supports that. You can use the built-in camera app directly. When you launch the camera in the emulator you will see a fixed animated image that you can take a snapshot of, simulating taking a picture. You can also navigate to the **Camera** tab in **Additional Tools**, where you can switch the input for Front and Rear Camera to display a default animation, a picture from file, or an attached web-cam. Any web-cam recognized by Windows shows as an option in the drop down lists for front and rear cameras.
-
-
-
 ### Power/Battery Simulation (and Power button)
 
 If you write your app to respond to battery charge changes, you can simulate them by switching to the **Battery** tab when you open the **Additional Tools**.
