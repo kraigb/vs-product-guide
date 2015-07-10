@@ -146,6 +146,20 @@ To take a screenshot of your app, open the **Additional Tools** and switch to th
 
 The **Screenshot** tab captures the image at the same screen resolution displayed on your monitor. For best results when you take screen-shots of your app, set the zoom level to the maximum of 100%.
 
+### SD card
+
+If your app needs to read or write to the SD card of the device, the Emulator simulates that by making available a folder representing an SD card. The Emulator uses a separate VHD for SD card support. So if you want to transfer files to/from the SD card on your development machine, you can mount the VHD to Windows. Once the VHD is mounted as an additional drive to Windows, you can use it like any other drive.
+
+Support for the SD card in the Emulator also allows other built-in Android apps to function, such as the browser downloads and the camera app.
+
+![SD card](_assets/emulator-13.png)
+
+### Camera
+
+The Emulator supports using the camera from your app (using an appropriate API), and it also supports using the built-in camera app directly. When you launch the camera in the Emulator, you will see a fixed animated image that you can take a snapshot of, simulating taking a picture. In the **Camera** tab, you can switch the input for front and rear camera to display a default animation, a picture from a file, or an attached webcam. Any webcam recognized by Windows will show up in the dropdown lists for front and rear cameras.
+
+![camera](_assets/emulator-14.png)
+
 ### Multi-touch
 
 If your app makes use of more than one simultaneous touch point (for example, for pinch functionality), you can select between **Single Point Input** and **Multi-touch Input** on the vertical toolbar that appears next to the emulator display.
