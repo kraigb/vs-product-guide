@@ -144,7 +144,7 @@ In addition to updated IntelliSense for web standards, the HTML editor in Visual
 
 ## ASP.NET 4.6 runtime updates
 
-- **ASP.NET MVC 5.2.2: ** Template packages are updated to use ASP.NET MVC 5.2.2. This release does not have any new features or bug fixes in MVC. Web Pages updates give it a significant performance improvement, and all dependent packages have been updated to use this new version of Web Pages.
+- **ASP.NET MVC 5.2.2:** Template packages are updated to use ASP.NET MVC 5.2.2. This release does not have any new features or bug fixes in MVC. Web Pages updates give it a significant performance improvement, and all dependent packages have been updated to use this new version of Web Pages.
 - **ASP.NET Web API 5.2.2:** This release includes a dependency change for Json.Net 6.0.4. For more information on what is new in this release of Json.NET, see Json.NET 6.0 Release 4 - JSON Merge, Dependency Injection. This release does not have any other new features or bug fixes in Web API. Dependent packages have been updated to use this new version of Web API.
 - **ASP.NET Web API OData 5.3.1:** See the [release notes](http://www.asp.net/web-api/overview/releases/whats-new-in-aspnet-web-api-odata-53)for details. 
 - **SignalR 2.1.2:** Template packages use SignalR 2.1.2. For more information, see the [SignalR 2.1.2 release notes on GitHub](https://github.com/SignalR/SignalR/releases/tag/2.1.2).
