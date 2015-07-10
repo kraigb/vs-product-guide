@@ -13,7 +13,9 @@ It is aimed at the development team. With it, you can:
 * [Analyse usage patterns](https://azure.microsoft.com/documentation/articles/app-insights-overview-usage/) and measure the success of each new feature.
 * [Detect and diagnose](https://azure.microsoft.com/documentation/articles/app-insights-detect-triage-diagnose/) crashes, performance and availability issues.
 
-The SDK for each platform includes a range of modules that monitor the app straight out of the box. In addition, you can code your own telemetry for more detailed and tailored analytics.
+The SDK for each platform includes a range of modules that monitor the app straight out of the box. In addition, you can code your own telemetry for more detailed and tailored analytics. 
+
+The SDKs are carefully designed to minimize the impact on the performance of your app.
 
 Telemetry data collected from your application is stored and analysed in the Azure Portal, where there are intuitive views and powerful tools for fast diagnosis and analysis. 
 
