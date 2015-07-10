@@ -2,8 +2,8 @@
     pageTitle="Python Tools"
     description="Python is a programming language that you can run on various platforms including Windows, Linux, Unix, and Mac OS X. With Python Tools for Visual Studio, developers can take advantage of an official Microsoft open-sourced extension that enables first-class Visual Studio tooling support for Python projects."
     slug="python"
-    order="300"    
-    keywords="visual studio, vs2015, vs, visualstudio, cross-platform, server, linux, windows, python"
+    order="600"    
+    keywords="visual studio, vs2015, vs, visualstudio, cross-platform, server, linux, windows, languages, python"
 />
 
 The Python Tools for Visual Studio 2.2 is a free, open-source extension adds all the functionality you need to develop and maintain your Python applications in Visual Studio, and deploy to Windows or Linux servers, or to Microsoft Azure.

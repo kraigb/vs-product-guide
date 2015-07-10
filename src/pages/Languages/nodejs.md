@@ -2,8 +2,8 @@
     pageTitle="Node.js Tools"
     description="Node.js is a platform built on the JavaScript runtime of Google Chrome, which you can run on various platforms including Linux, Mac OS X, and Windows. With Node.js Tools for Visual Studio, developers can take advantage of an official Microsoft open-sourced extension that enables first-class Visual Studio tooling support for Node.js projects."
     slug="nodejs"
-    order="400"    
-    keywords="visual studio, vs2015, vs, visualstudio, cross-platform, server, linux, windows, node, node.js"
+    order="700"    
+    keywords="visual studio, vs2015, vs, visualstudio, cross-platform, server, linux, windows, languages, node, node.js"
 />
 
 
