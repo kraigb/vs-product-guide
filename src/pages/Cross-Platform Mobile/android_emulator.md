@@ -24,17 +24,11 @@ The *Visual Studio Emulator for Android* addresses this problem by introducing *
 
 ### Pre-installed device profiles
 
-You can simply choose a pre-installed profile, if it meets your testing needs. Here's how the device profile drop-downs appear.
-
-For Cordova: 
+You can simply choose a pre-installed profile, if it meets your testing needs. Here's how the device profile drop-downs appear in Cordova.
 
 ![Visual Studio Emulator for Android with Cordova](_assets/emulator-2.png)
 
-For Xamarin: 
-
-![Visual Studio Emulator for Android with Xamarin](_assets/emulator-3.png)
-
-And for C++ projects:
+And in C++ projects (note: Xamarin not shown):
 
 ![Visual Studio Emulator for Android with C++](_assets/emulator-1.png)
 
