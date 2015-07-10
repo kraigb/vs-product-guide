@@ -24,17 +24,11 @@ The *Visual Studio Emulator for Android* addresses this problem by introducing *
 
 ### Pre-installed device profiles
 
-You can simply choose a pre-installed profile, if it meets your testing needs. Here's how the device profile drop-downs appear.
-
-For Cordova: 
+You can simply choose a pre-installed profile, if it meets your testing needs. Here's how the device profile drop-downs appear in Cordova.
 
 ![Visual Studio Emulator for Android with Cordova](_assets/emulator-2.png)
 
-For Xamarin: 
-
-![Visual Studio Emulator for Android with Xamarin](_assets/emulator-3.png)
-
-And for C++ projects:
+And in C++ projects (note: Xamarin not shown):
 
 ![Visual Studio Emulator for Android with C++](_assets/emulator-1.png)
 
@@ -99,12 +93,6 @@ You can navigate the map by dragging it around, by zooming in and out, or even b
 Instead of having each map point immediately change the GPS location of the emulator (**Live mode**), you have other options. You can place a few map points and then simulate transitioning between those points. To do that, in the toolbar at the top switch from **Live mode** to **Pin mode**. Then press the small **Play** button at the end of the toolbar to transition between the map points. You can even enter a transition interval (in seconds).
 
 Finally, you can choose **Route mode**, which is similar to **Pin**. In Route mode you can set additional options for the simulated transitions between points. The simulator calculates an actual path between the points and generates invisible points at 1 second intervals between the points you choose. The playback speed can be set to *Walking* (5 kilometers per hour), *Biking* (25 km/h), *Speed Limit* (variable dependent on map point), and *Fast*.
-
-### Camera
-
-If your app uses the camera (by using an appropriate API), the emulator supports that. You can use the built-in camera app directly. When you launch the camera in the emulator you will see a fixed animated image that you can take a snapshot of, simulating taking a picture. You can also navigate to the **Camera** tab in **Additional Tools**, where you can switch the input for Front and Rear Camera to display a default animation, a picture from file, or an attached web-cam. Any web-cam recognized by Windows shows as an option in the drop down lists for front and rear cameras.
-
-
 
 ### Power/Battery Simulation (and Power button)
 
