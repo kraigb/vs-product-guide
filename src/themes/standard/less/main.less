@@ -28,10 +28,10 @@ main {
 
     article ul {
         /* list-style: none; REMOVED to allow bullet lists */
-        padding: 0 0 40px 0;
+        padding: 0 0 40px 25px;
 
         a {
-            padding-left: 25px;
+            /* padding-left: 25px; Removed because it made links look odd. */
             background: no-repeat left;
         }
 
@@ -46,6 +46,10 @@ main {
         a[href*="codeplex.com"] {
             background-image: url(/themes/standard/img/codeplex.min.svg);
         }
+    }
+    
+    article ul ul {
+        padding-bottom: 10px;
     }
 
     aside {
