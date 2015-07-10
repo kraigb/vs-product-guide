@@ -26,4 +26,4 @@
 TypeScript 1.5 includes a metadata API for working with decorators, allowing you to add and read metadata on declarations.
 
 
-_Further details can be found on the [_TypeScript 1.4_](http://blogs.msdn.com/b/typescript/archive/2015/01/16/announcing-typescript-1-4.aspx) and [_TypeScript 1.5 (Beta)_](http://blogs.msdn.com/b/typescript/archive/2015/04/30/announcing-typescript-1-5-beta.aspx) team blog posts._
+_Further details can be found on the [TypeScript 1.4](http://blogs.msdn.com/b/typescript/archive/2015/01/16/announcing-typescript-1-4.aspx) and [TypeScript 1.5 (Beta)](http://blogs.msdn.com/b/typescript/archive/2015/04/30/announcing-typescript-1-5-beta.aspx) team blog posts._
