@@ -1,11 +1,11 @@
 <properties
-    pageTitle="DevOps & Application Lifecycle Management"
+    pageTitle="DevOps & ALM"
     description="We like to say that Visual Studio Online is not an IDE, it's everything else."
     slug="devopsalm"
     order="600"    
     keywords="visual studio, visual studio online, vs2015, vs, visualstudio, vso, alm, devops"
 />
-[Visual Studio Online](https://www.visualstudio.com/en-us/products/what-is-visual-studio-online-vs) delivers continuous innovation services for agile team collaboration and DevOps. Its cloud-powered tools work with your existing IDE or editor, as well as through any browser, so every member of team can work effectively on all types of software projects from anywhere in the world. For up-to-date news on   
+[Visual Studio Online](https://www.visualstudio.com/en-us/products/what-is-visual-studio-online-vs) delivers continuous innovation services for agile team collaboration and DevOps/Application Lifecycle Management (ALM). Its cloud-powered tools work with your existing IDE or editor, as well as through any browser, so every member of team can work effectively on all types of software projects from anywhere in the world. For up-to-date news on   
 
 Team Foundation Server gives on-premises customers many of these same capabilities, which are delivered through regular TFS updates and roll up into major releases like TFS 2015. The [Visual Studio Online Features Timeline](https://www.visualstudio.com/en-us/news/release-archive-vso) provides a complete reference for what features appear in which service updates to Visual Studio Online and in which updates to TFS.
 
