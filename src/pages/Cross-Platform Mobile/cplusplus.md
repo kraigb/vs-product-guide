@@ -1,7 +1,7 @@
 <properties
     pageTitle="Visual C++"
     description="Visual Studio 2015 adds new capabilities that enable Visual C++ developers to build cross-platform mobile code that runs on Android, iOS, and Windows, all from a shared code base."
-    slug="crossplatmobile"
+    slug="crossplatcpp"
     order="200"    
     keywords="visual studio, vs2015, vs, visualstudio, cross-platform, mobile apps, iOS, Android, Windows Phone, C++"
 />
