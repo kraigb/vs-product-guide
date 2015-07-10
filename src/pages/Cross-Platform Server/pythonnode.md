@@ -7,5 +7,5 @@
 />
 
 For details, see the following topics in the Languages section:
-- ![Python Tools for Visual Studio](../Languages/python)
-- ![Node.js Tools for Visual Studio](../Languages/nodejs)
+- [Python Tools for Visual Studio](../Languages/python)
+- [Node.js Tools for Visual Studio](../Languages/nodejs)
