@@ -27,10 +27,9 @@ ADO .NET now supports the Always Encrypted feature available in SQL Server 2016 
 Improvements made to the WPF platform in the .NET Framework 4.6 and Visual Studio 2015 include the following:
  
 - Better HDPI support. Changes have been made to layout rounding to reduce instances of clipping in controls with borders. By default, this feature is enabled only for applications that target the .NET Framework 4.6. 
-- Better touch support. Customer reports that touch produces  unpredictable have been addressed by using the same double tap threshold as in Windows 8.1 and above.
 - Transparent child windows
+- Customer reports on Microsoft Connect that touch produces unpredictable behavior have been addressed in the .NET Framework 4.6. The double tap threshold for Windows store apps and WPF apps is now the same in Windows 8.1 and above.
 - Multi-image cursor files
-- [Re-designed Blend experience](../../windows/blend)
 - [New set of Visual Diagnostics tools](../../productivity/debugdiag/)
 - [Timeline tool in the Performance and Diagnostics hub](../../productivity/debugdiag/)
 
@@ -58,17 +57,9 @@ A new property, System.Uri.IdnHost, has been added to the System.Uri class to be
 
 ## Next generation JIT compiler for managed code
 
-The common language runtime in the .NET Framework 4.6 features a next generation 64-bit Just-In-Time (JIT) compiler. It uses a high-performance JIT architecture, focused on high throughput JIT compilation. It is much faster than the older JIT64 64-bit JIT compiler that has been used for the last 10 years, since the release of the .NET Framework 2.0. We also expect to add 32-bit support in a later release.
+The .NET Framework 4.6 features a new version of the 64-bit JIT compiler. This compiler provides significant performance improvements over the older 64-bit JIT compiler. While care has been taken to make the transition to the new compiler as transparent as possible, changes in behavior are possible. We would like to hear directly about any issues encountered when using the new JIT compiler. Please contact us through http://connect.microsoft.com/ if you encounter an issue that may be related to the new JIT. 
 
-The new 64-bit JIT compiler is enabled by default for 64-bit processes running on top of the .NET Framework 4.6. Your app will execute in a 64-bit process if it is compiled as 64-bit or AnyCPU and is running on a 64-bit operating system. The compiler is similarly integrated into .NET Core as the 64-bit JIT compiler.
-
-Some other changes include:
-
-- **Correctness:** We've fixed many correctness bugs, using various Microsoft cloud workloads to validate the new 64-bit JIT compiler. This approach has been working well, because the Microsoft cloud is a very heavy user of .NET.
-- **Real-World Throughput:** The Bing team recently started using the compiler on some of their search-related workloads. Based on their initial experiments, they have seen a 25% improvement in startup time, which is a significant win.
-- **SIMD Improvements:** We created the SIMD .NET library in unison with the 64-bit compiler so that it could optimize the SIMD types. Lately, we’ve been tuning our use of registers in the 64-bit SIMD optimizations. CPUs can crunch numbers much faster in registers, since they are effectively memory on the CPU.
-
-Although we have tried to make the transition to the new JIT compiler as transparent as possible, we also understand that there may be compatibility issues. If your application produces an undesired behavior on RyuJIT, you can try disabling RyuJIT, which switches your application back to using the previous JIT to determine if the problems you are seeing are caused by RyuJIT. We would also like to hear directly about any issues encountered when using the new JIT compiler. Please send an email describing the issue with the problematic binary attached to ryujit@microsoft.com.
+The new 64-bit JIT also includes hardware SIMD acceleration features when coupled with System.Numerics frameworks., which can yield significant performance improvements.
 
 ## .NET Native
 
