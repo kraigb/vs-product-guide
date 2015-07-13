@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Deployment and Release Management"
+    pageTitle="Release Management"
     description="TODO"
     slug="releasemanagement"
     order="500"    
