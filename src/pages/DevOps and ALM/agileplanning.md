@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Agile Planning Improvements"
+    pageTitle="Agile Planning"
     description="Planning, tracking, and executing on work is the heart of any agile process, and we continue to make the process more efficient."
     slug="agileplanning"
     order="200"    
