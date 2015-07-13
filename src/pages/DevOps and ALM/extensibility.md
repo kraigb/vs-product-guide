@@ -1,5 +1,5 @@
 <properties
-    pageTitle="New Extensibility Model"
+    pageTitle="Extensibility Model"
     description="Visual Studio Online and Team Foundation Server are now extensible, enabling a wide range of third-party customization."
     slug="vsoextensibility"
     order="100"    
