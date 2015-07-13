@@ -7,11 +7,17 @@
 />
 ## Developer Productivity
 
-Visual Studio 2015 brings many improvements in the IDE, debugging and diagnostics, code visualization, testing, languages, and Github integration, along with the Azure SDK 2.6. You can see all the details in this section's secondary topics.
+Visual Studio 2015 brings many improvements in the IDE, debugging and diagnostics, code visualization, testing, languages, and Github integration, along with an updated the Azure SDK. You can see all the details in this section's secondary topics:
+- **[IDE Improvements](ide)**
+- **[Debugging & Diagnostics](debugdiag)**
+- **[Code Visualization](codeviz)**
+- **[IntelliTest for .NET](testing)**
+- **[Azure SDK for .NET](azuresdk26)**
+- **[GitHub Integration](productivitygit)**
+
+Complete details can be found in the [Visual Studio 2015 Release Notes](https://www.visualstudio.com/news/vs2015-vs).
 
 In addition, productivity in Visual Studio 2015 reaches new levels with a number of key extensions and tools as described below.
-
-The following sections highlight some of the most compelling features. Complete details can be found in the [Visual Studio 2015 RC Release Notes](https://www.visualstudio.com/news/vs2015-vs) and the [Build 2015 News for Visual Studio blog post](http://blogs.msdn.com/b/visualstudio/archive/2015/04/29/build-2015-news-visual-studio-code-visual-studio-2015-rc-team-foundation-server-2015-rc-visual-studio-2013-update-5.aspx).
 
 
 ### Bing Developer Assistant

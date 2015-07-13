@@ -6,14 +6,12 @@
 	keywords="visual studio, visualstudio, visual studio online, team foundation server, tfs, team explorer everywhere, release management"
 />
 
-Product highlights include:
-
-- **[Extensibility](../devopsalm/vsoextensibility):** REST APIs and service hooks enable partners to extend Visual Studio Online and Team Foundation Server, and integrate with external services such as Trello or Campfire.
-- **[Agile planning](../devopsalm/agileplanning) and [Kanban board](../devopsalm/kanban) improvements:** Features include inline editing and reordering on Kanban boards.
-- **[Quick code editing](../devopsalm/sourcecontrol):** Users can directly edit code and commit changes in the browser, without the need for additional tools.
-- **[Build.Preview](../devopsalm/buildvnext):** Create custom workflows with reusable tasks, build code from external systems such as GitHub, and utilize the new cross-platform build agent to run builds on Linux and Mac OS X machines. TFS includes in-box support for Ant, Maven, and Gradle.
-- **[Release Management Service (preview)](../devopsalm/releasemanagement):** Improvements include a web interface and integration with Build vNext. The Release Management Service also can pick up apps for other build systems, such as Jenkins, and will deploy through Chef, Docker, or Azure resource groups, as well as to on-premises servers from Visual Studio Online.
-- **[Application Insights]()../devopsalm/appinsights):** Microsoft's analytics solution, available on the Azure portal, has reached the public preview milestone and now integrates HockeyApp's cross-platform capabilities for iOS and Android apps.
+- **[Extensibility](../../devopsalm/vsoextensibility):** REST APIs and service hooks enable partners to extend Visual Studio Online and Team Foundation Server, and integrate with external services such as Trello or Campfire.
+- **[Agile planning](../../devopsalm/agileplanning) and [Kanban board](../devopsalm/kanban) improvements:** Features include inline editing and reordering on Kanban boards.
+- **[Quick code editing](../../devopsalm/sourcecontrol):** Users can directly edit code and commit changes in the browser, without the need for additional tools.
+- **[Build.Preview](../../devopsalm/buildvnext):** Create custom workflows with reusable tasks, build code from external systems such as GitHub, and utilize the new cross-platform build agent to run builds on Linux and Mac OS X machines. TFS includes in-box support for Ant, Maven, and Gradle.
+- **[Release Management Service (preview)](../../devopsalm/releasemanagement):** Improvements include a web interface and integration with Build vNext. The Release Management Service also can pick up apps for other build systems, such as Jenkins, and will deploy through Chef, Docker, or Azure resource groups, as well as to on-premises servers from Visual Studio Online.
+- **[Application Insights](../../devopsalm/appinsights):** Microsoft's analytics solution, available on the Azure portal, has reached the public preview milestone and now integrates HockeyApp's cross-platform capabilities for iOS and Android apps.
 - **SonarQube integration:** Builds can send code analysis and coverage data to SonarQube for deep analysis and problem prioritization.
 
 Get started today by downloading  [_Team Foundation Server 2015_](https://www.visualstudio.com/en-us/downloads/).

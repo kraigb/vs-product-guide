@@ -1,7 +1,7 @@
 <properties
     pageTitle="C# and Visual Basic"
     description="Visual Studio 2015 ships new language features for C#6 and Visual Basic 14."
-    slug="languages"
+    slug="languages_csvb"
     order="500"    
     keywords="visual studio, vs2015, vs, visualstudio, languages, C#, VB, visual basic"
 />
