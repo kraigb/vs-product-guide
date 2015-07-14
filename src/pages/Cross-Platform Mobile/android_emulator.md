@@ -24,13 +24,12 @@ The *Visual Studio Emulator for Android* addresses this problem by introducing *
 
 ### Pre-installed device profiles
 
-You can simply choose a pre-installed profile, if it meets your testing needs. Here's how the device profile drop-downs appear in Cordova.
+You can simply choose a pre-installed profile, if it meets your testing needs. For example, here's how the device profile drop-downs appear in Cordova.
 
 ![Visual Studio Emulator for Android with Cordova](_assets/emulator-2.png)
 
-And in C++ projects (note: Xamarin not shown):
+A similarly appropriate list will appear for Xamarin and C++ projects.
 
-![Visual Studio Emulator for Android with C++](_assets/emulator-1.png)
 
 ### Installing Device Profiles with Emulator Manager
 
@@ -163,12 +162,3 @@ The audio output by the emulated device is played back through your computer's s
 ### Keyboard Text Input
 
 When the emulator displays an on-screen keyboard, you can use your computer's keyboard to enter text directly. 
-
-
-
-
-
-
-
-
-
