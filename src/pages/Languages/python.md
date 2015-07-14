@@ -6,21 +6,22 @@
     keywords="visual studio, vs2015, vs, visualstudio, cross-platform, server, linux, windows, languages, python"
 />
 
-The Python Tools for Visual Studio is a free, open-source extension adds all the functionality you need to develop and maintain your Python applications in Visual Studio, and deploy to Windows or Linux servers, or to Microsoft Azure.
+Python Tools for Visual Studio is a free, open-source extension that adds all the functionality you need to develop and maintain your Python applications in Visual Studio, and deploy to Windows or Linux servers, or to Microsoft Azure.
 
 ![Python tools for Visual Studio](_assets/python-tools.png)
 
 Recent updates include:
 
-- Code snippets support
-- Improved code outlining
+- Visual Studio 2015 support
 - Improved Python environments window
 - Automatic code suggestions as you type
+- Code snippets
+- Improved code outlining
 - Debugger autos window
-- Set environment variables in project settings
 - Hit count breakpoints
 - Task comments
-- Preliminary support for Python 3.5
+- Set environment variables in project settings
+- Support for Python 3.5 and new async/await syntax
 - Along with many bug fixes and smaller features enhancements.
 
 The tools can be automatically installed with Visual Studio 2015 by checking the Python Tools for Visual Studio box under the Programming Languages option.
