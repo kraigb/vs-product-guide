@@ -39,14 +39,14 @@
 - **Interop APIs for Option:** APIs in the Option module allow for converting to and from null objects and System.Nullable values.
 
 
-## IDE Experience
+## IDE and Tools Experience
 
 - **Script debugging:** the Visual Studio debugger can debug F# scripts directly. The debugger can be attached to the current F# Interactive session.
 - **Assembly metadata in project templates:** All F# project templates contain a file AssemblyInfo.fs that contains common assembly-level metadata attributes.
 - **Integrated up-to-date check:** F# projects correctly report their "up-to-date" status when building in Visual Studio.
+- **Modified GC settings on the compiler for better performance:** The F# compiler (fsc.exe) uses GCLatencyMode.Batch, which gives a noticeable improvement in overall throughput.
 - **Intellisense in object initializers:** Object initializer expressions support IntelliSense completion of settable properties, using Ctrl+Space.
 - **IntelliSense completion for named parameters:** Method and constructor calls support IntelliSense auto-completion of named parameters, using Ctrl+Space.
 - **Bug fixes around folder support:** Visual F# tools do not directly support folders in projects, but a number of project system bugs have been fixed improve the folder support added by the Visual F# Power Tools extension.
-
-
-TODO: also bring in stuff from http://blogs.msdn.com/b/fsharpteam/archive/2014/11/12/announcing-a-preview-of-f-4-0-and-the-visual-f-tools-in-vs-2015.aspx
+- **Improved startup time for FSI:** Adjustments to the AppDomain loading behavior has improved startup time over F# 3.1.2.
+- **New hotkeys for FSI:** From within Visual Studio, hotkeys are assigned for the "Reset" (Ctrl+Alt+R) and "Clear All" (Ctrl+Alt+C) actions of F# Interactive. These mappings were chosen to match those found in other F# IDEs.
