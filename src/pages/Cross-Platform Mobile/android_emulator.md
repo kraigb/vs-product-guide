@@ -1,19 +1,12 @@
 <properties
     pageTitle="Android Emulator"
-    description="The Visual Studio Emulator for Android is based on Hyper-V, and is targetable by any Android project with configurable images such as Lollipop and KitKat."
+    description="The Visual Studio Emulator for Android emulates physical devices such as phones or tablets on your computer, letting you test your apps against a wide variety of virtual devices. Except for making phone calls, the Emulator simulates all of the features of an actual physical device, including accelerometer, screen rotation, GPS Location, camera, power and battery level, network access, WiFi, and OpenGL. It simulates keyboard input, multi-touch, drag-and-drop, and zoom."
     slug="androidemulator"
     order="400"    
     keywords="visual studio, vs2015, vs, visualstudio, cross-platform, mobile apps, iOS, Android, Windows Phone, Android emulator"
 />
 
-# The Visual Studio Emulator for Android
-
-## Summary
-
-The Visual Studio Emulator for Android emulates physical devices such as phones or tablets on your computer, letting you test your apps against a wide variety of virtual devices. Except for making phone calls, the Emulator simulates all of the features of an actual physical device, including accelerometer, screen rotation, GPS Location, camera, power and battery level, network access, WiFi, and OpenGL. It simulates keyboard input, multi-touch, drag-and-drop, and zoom.
-
 You can use the Emulator in Visual Studio Xamarin or C++ cross-platform projects, with the Visual Studio Tools for Apache Cordova, or independent of Visual Studio with any Android tools. The Emulator lets you switch between different virtual devices without Hyper-V conflicts. It supports Android versions 4.2 (JellyBean, API Level 17), 4.4 (KitKat, API Level 19), 5.0 (Lollipop, API Level 21), and 5.1 (Lollipop, API Level 22).
-
 
 
 ## Choosing a virtual device
