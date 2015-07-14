@@ -1,6 +1,6 @@
 <properties
     pageTitle="Extensibility Model"
-    description="Visual Studio Online and Team Foundation Server are now extensible, enabling a wide range of third-party customization."
+    description="Visual Studio Online and Team Foundation Server 2015 are extensible, enabling a wide range of third-party customization."
     slug="vsoextensibility"
     order="100"    
     keywords="visual studio, team foundation server, visual studio online, vs2015, vs, visualstudio, tfs, vso, extensibility"
