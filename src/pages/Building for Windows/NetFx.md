@@ -1,6 +1,6 @@
 <properties
     pageTitle="The .NET Framework 4.6"
-    description="The latest version of the .NET Framework includes a host of new features, such as ASP.NET, ADO.NET, and WPF improvements, more Windows Forms High DPI controls, the next-generation 64-bit JIT compiler, native code generation for UWP apps, CLR performance improvements, async changes, SIMD-enabled vector classes, garbage collector updates, cryptography updates, DateTime to Unix time support, compatibility switches, and much more. Entity Framework 7 introduces additional new features and can run on .NET Framework 4.6 and .NET Core."
+    description="The latest version of the .NET Framework includes a host of new features, such as ASP.NET, ADO.NET, and WPF improvements, more Windows Forms High DPI controls, the next-generation 64-bit JIT compiler, native code generation for UWP apps, CLR performance improvements, async changes, SIMD-enabled vector classes, garbage collector updates, cryptography updates, DateTime to Unix time support, compatibility switches, and much more. Entity Framework 7 introduces additional  features and can run on .NET Framework 4.6 and .NET Core."
     slug="windowsnetfx"
     order="400"    
     keywords="visual studio, vs2015, vs, visualstudio, windows, windows 10, .NET framework"
@@ -12,18 +12,16 @@
 ASP.NET includes the following improvements in the .NET Framework 4.6:
 
 - A simple task-based System.Web.HttpResponse.FlushAsync method for asynchronous response flushing. It allows responses to be flushed asynchronously by using your language's async/await support.
-- The ASP.NET Model BInding system now supports Task-returning model binding methods. This feature allows Web Forms developers to get the scalability benefits of async with the ease of the data-binding system when using newer versions of ORMs, inlcuding the Entity Framework.
+- Support for Task-returning model binding methods in the ASP.NET Model Binding system. This allows Web Forms developers to get the scalability benefits of async with the ease of the data-binding system when using newer versions of ORMs, including the Entity Framework.
 - HTTP/2 support in Windows 10. (HTTP/2 is also on by default in WIndows 10 UWP apps that use the System.NET.Http.HttpClient API.)
-- Support for the Token Binding Protocol. This protocol, which is the result of Microsoft's collaboration with Google in the area of online authentication, aims to mitigate the prolem of unauthorized users accessing a user's authentication tokens without requiring the user's password or any other privileged knowledge. The Token Binding Protocol is implemented in Wndows 10 as a browser feature. ASP.NET apps will participate in the protocol, so that authentication tokens are validated to be legitimate. The client and the server implementations establish the end-to-end protection specified by the protocol.
+- Support for the Token Binding Protocol, which is the result of Microsoft's collaboration with Google in the area of online authentication. The protocol aims to mitigate the prolem of unauthorized users accessing a user's authentication tokens without requiring the user's password or any other privileged knowledge. The Token Binding Protocol is implemented in Wndows 10 as a browser feature. ASP.NET apps will participate in the protocol, so that authentication tokens are validated to be legitimate. The client and the server implementations establish the end-to-end protection specified by the protocol.
 
 ## ADO.NET improvements
 
-ADO .NET now supports the Always Encrypted feature available in SQL Server 2016 Community Technology Preview 2 (CTP2). With Always Encrypted, SQL Server can perform operations on encrypted data, and best of all the encryption key resides with the application inside the customer’s trusted environment and not on the server. Always Encrypted secures customer data so DBAs do not have access to plain text data. Encryption and decryption of data happens transparently at the driver level, minimizing changes that have to be made to existing applications.
+ADO .NET  supports the Always Encrypted feature available in SQL Server 2016 Community Technology Preview 2 (CTP2). With Always Encrypted, SQL Server can perform operations on encrypted data, and best of all the encryption key resides with the application inside the customer’s trusted environment and not on the server. Always Encrypted secures customer data so DBAs do not have access to plain text data. Encryption and decryption of data happens transparently at the driver level, minimizing changes that have to be made to existing applications.
 
 ## Windows Presentation Framework improvements
 
-Improvements made to the WPF platform in the .NET Framework 4.6 and Visual Studio 2015 include the following:
- 
 - Better HDPI support. Changes have been made to layout rounding to reduce instances of clipping in controls with borders. By default, this feature is enabled only for applications that target the .NET Framework 4.6. 
 - Transparent child windows
 - Customer reports on Microsoft Connect that touch produces unpredictable behavior have been addressed in the .NET Framework 4.6. The double tap threshold for Windows store apps and WPF apps is now the same in Windows 8.1 and above.
@@ -31,13 +29,13 @@ Improvements made to the WPF platform in the .NET Framework 4.6 and Visual Studi
 - [New set of Visual Diagnostics tools](../../productivity/debugdiag/)
 - [Timeline tool in the Performance and Diagnostics hub](../../productivity/debugdiag/)
 
-## Windowws Communication Foundation improvements
+## Windows Communication Foundation improvements
 
-WCF now supports SSL version TLS 1.1 and TLS 1.2, in addition to SSL 3.0 and TLS 1.0, when using NetTcp with transport security and client authentication.  It is now possible to select which protocol to use, or to disable old lesser secure protocols. This can be done either by setting the System.ServiceModel.TcpTransportSecurity.SslProtocols property or by adding a line to a configuration file. 
+WCF  supports SSL version TLS 1.1 and TLS 1.2, in addition to SSL 3.0 and TLS 1.0, when using NetTcp with transport security and client authentication.  This makes it possible to select which protocol to use, or to disable old lesser secure protocols. This can be done either by setting the System.ServiceModel.TcpTransportSecurity.SslProtocols property or by adding a line to a configuration file. 
 
 ## Windows Forms High DPI
 
-The .NET Framework 4.5.2 included Windows Forms high DPI support for an initial set of controls. The .NET Framework 4.6 add support for more controls: DataGridView, ComboBox, ToolStripComboBox, ToolStripMenuItem, Cursor, DomainUpDown, NumericUpDown, DataGridViewComboBoxColumn, DataGridViewColumn and ToolStripSplitButton types.
+The .NET Framework 4.5.2 included Windows Forms high DPI support for an initial set of controls. The .NET Framework 4.6 adds support for more controls: DataGridView, ComboBox, ToolStripComboBox, ToolStripMenuItem, Cursor, DomainUpDown, NumericUpDown, DataGridViewComboBoxColumn, DataGridViewColumn and ToolStripSplitButton types.
 
 This is an opt-in feature. To enable it, set the EnableWindowsFormsHighDpiAutoResizing element to true in the application configuration (app.config) file:
 
@@ -55,7 +53,7 @@ A new property, System.Uri.IdnHost, has been added to the System.Uri class to be
 
 ## Next generation JIT compiler for managed code
 
-The .NET Framework 4.6 features a new version of the 64-bit JIT compiler. This compiler provides significant performance improvements over the older 64-bit JIT compiler. While care has been taken to make the transition to the new compiler as transparent as possible, changes in behavior are possible. We would like to hear directly about any issues encountered when using the new JIT compiler. Please contact us through http://connect.microsoft.com/ if you encounter an issue that may be related to the new JIT. 
+The .NET Framework 4.6 features a new version of the 64-bit JIT compiler. This compiler provides significant performance improvements over the older 64-bit JIT compiler. While care has been taken to make the transition to the new compiler as transparent as possible, changes in behavior are possible. We would like to hear directly about any issues encountered when using the new JIT compiler. Please contact us through [http://connect.microsoft.com/](http://connect.microsoft.com/) if you encounter an issue that may be related to the new JIT. 
 
 The new 64-bit JIT also includes hardware SIMD acceleration features when coupled with System.Numerics frameworks., which can yield significant performance improvements.
 
@@ -75,7 +73,7 @@ The assembly loader uses memory more efficiency by unloading IL assemblies after
 
 ## Garbage collector updates
 
-The Garbage Collector now has a no GC region latency mode that attempts to avoid garbage collection during the execution of a critical path if certain memory-related conditions are met. This new mode is important for workloads that require uninterupted computation (at least as it relates to GC CPU use).
+The updated Garbage Collector has a no GC region latency mode that attempts to avoid garbage collection during the execution of a critical path if certain memory-related conditions are met. This new mode is important for workloads that require uninterupted computation (at least as it relates to GC CPU use).
 
 The no GC region latency mode enables you to specify a certain amount of memory be available as a pre-requisite to enter a No GC Region. You can specify the amount of memory that must be available for both the small object heap and the large object heap, or you can specify the amount of total memory and the amount to make available for the large object heap. While in the critical region, the GC will not collect. It will start collecting if a collection is explicitly requested (for example, if GC.Collect is called) or if the initially specified memory size is exhausted. 
 
@@ -94,7 +92,7 @@ New methods have been added to support the conversion of date and time values to
 
 ## Channel support for managed EventSource instrumentation
 
-You now can use .NET EventSource instrumentation to log significant administrative or operational messages to the event log, in addition to any existing ETW sessions created on the machine.
+You can use .NET EventSource instrumentation to log significant administrative or operational messages to the event log, in addition to any existing ETW sessions created on the machine.
 
 ## Compatibility switches
 
@@ -148,7 +146,7 @@ This same infrastructure is used by the .NET Framework internally, to enable dev
 
 ## Open-source .NET Framework packages
 
-.NET Core  packages such as the Immutable Collections, SIMD API, and the networking APIs such as those found in the System.Net.Http namespace are now available as open source packages on GitHub. 
+.NET Core  packages such as the Immutable Collections, SIMD API, and the networking APIs such as those found in the System.Net.Http namespace are available as open source packages on GitHub. 
 
 
 
