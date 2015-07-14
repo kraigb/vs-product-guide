@@ -6,5 +6,4 @@
     keywords="visual studio, vs2015, vs, visualstudio, cross-platform, server, linux, windows"
 />
 
-
-<TODO: overview>
+- .NET Core is a version of .NET for modern device and cloud workloads. It provides a single set of APIs for you to use for your apps. .NET has always offered low-level code portability as a fundamental tenet, and now has an uniform API set that can be used in multiple app types.
