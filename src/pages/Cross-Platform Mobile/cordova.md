@@ -1,6 +1,6 @@
 <properties
     pageTitle="Apache Cordova"
-    description="Visual Studio Tools for Apache Cordova enables developers to use their HTML, CSS, and JavaScript (or TypeScript) skills to write and debug hybrid apps that require little or no platform-specific customizations."
+    description="Visual Studio Tools for Apache Cordova, included with Visual Studio 2015, enables developers to use their HTML, CSS, and JavaScript (or TypeScript) skills to write and debug hybrid apps that require little or no platform-specific customizations."
     slug="cordova"
     order="100"    
     keywords="visual studio, vs2015, vs, visualstudio, cross-platform, mobile apps, iOS, Android, Windows Phone, JavaScript, Cordova, hybrid app"
@@ -76,8 +76,3 @@ With just a few lines of code, you can:
 Most importantly, you have the backing of Azure to scale to millions of devices on-demand.
 
 ![Add connected service](_assets/cordova-5.png)
-
-
-
-[Learn more](https://www.visualstudio.com/en-us/features/cordova-vs) | Included with Visual Studio 2015
-
