@@ -1,6 +1,6 @@
 <properties
     pageTitle="Debugging & Diagnostics"
-    description="TODO"
+    description="Visual Studio 2015 greatly improves the range of tools that you have for debugging and diagnostics. These include PerfTips, improved breakpoint configuration. lambda debugging support, filtering for errors and warnings, and much more."
     slug="debugdiag"
     order="200"    
     keywords="visual studio, vs2015, vs, visualstudio, productivity, ide, debugging, diagnostics, perftips, intellitrace"
