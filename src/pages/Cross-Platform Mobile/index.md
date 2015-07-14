@@ -14,3 +14,5 @@ Visual Studio 2015 offers several ways to approach mobile app development.
 - New capabilities enable Visual C++ developers to build [cross-platform C++ code](crossplatcpp) that runs on Android, iOS, and Windows, all from a shared code base.
 - The [**Visual Studio Emulator for Android**](androidemulator) is based on Hyper-V, and is targetable by any Android project with configurable images such as Lollipop and KitKat.
 - With the downloadable [**Visual Studio Tools for Unity**](unity) extension, game and high-performance graphics developers use C# for their Unity scripts in Visual Studio. Developers enjoy streamlined workflows and debugging in conjunction with Unity tools, which can target multiple mobile platforms from a single code base.
+
+![Cross-Platform Mobile Development](_assets/xamarin-1.png)
