@@ -1,5 +1,5 @@
 <properties
-    pageTitle="The .NET Framework 4.6"
+    pageTitle=".NET Framework 4.6"
     description="The latest version of the .NET Framework includes a host of new features, such as ASP.NET, ADO.NET, and WPF improvements, more Windows Forms High DPI controls, the next-generation 64-bit JIT compiler, native code generation for UWP apps, CLR performance improvements, async changes, SIMD-enabled vector classes, garbage collector updates, cryptography updates, DateTime to Unix time support, compatibility switches, and much more. Entity Framework 7 introduces additional  features and can run on .NET Framework 4.6 and .NET Core."
     slug="windowsnetfx"
     order="400"    
