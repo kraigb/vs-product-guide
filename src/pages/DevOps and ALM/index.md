@@ -11,11 +11,12 @@ Team Foundation Server gives on-premises customers many of these same capabiliti
 
 Key features rolling out in TFS 2015, among many, include the following:
 
- - A **new extensibility model** including REST APIs, service hooks, and server extensions.
- - **Improved agile planning tools** including Kanban enhancements.
- - The first preview of **Build vNext** with cross-platform support.
+ - A **[new extensibility model](veoextensibility)** including REST APIs, service hooks, and server extensions.
+ - **[Improved agile planning tools](agileplanning)** including **[Kanban enhancements](kanban)**.
+ - New features for **[source control](sourcecontrol)** to improve process efficiency.
+ - The new **[Build.Preview](buildvnext)** system that includes  cross-platform support.
 
-In calendar year 2015, Visual Studio Online is also bringing out a new **Release Management Service**, and Microsoft plans to bring **Application Insights**, now in preview, to general availability.
+In calendar year 2015, Visual Studio Online is also bringing out a new **[Release Management Service](releasemanagement)**, and Microsoft plans to bring **[Application Insights](appinsights)**, now in preview, to general availability.
 
 These areas are discussed in the separate subtopics for this section. 
 
