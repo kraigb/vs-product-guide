@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Source Control"
+    pageTitle="Version Control"
     description="Planning, tracking, and executing on work is the heart of any agile process, and we continue to make the process more efficient."
     slug="sourcecontrol"
     order="267"    
