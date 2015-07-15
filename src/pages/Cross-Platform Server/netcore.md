@@ -44,7 +44,7 @@ In contrast to the .NET Framework, the .NET Core platform will be delivered as a
 
 ![NuGet packages](_assets/netcore-2.png)
 
-For the BCL layer, we’ll have a 1-to-1 relationship between assemblies and NuGet packages, where the NuGet package has the same name as the assembly. For example, immutable collections which was delivered in a NuGet package called Microsoft.Bcl.Immutable is now in a package called System.Collections.Immutable.
+For the BCL layer, we have a 1-to-1 relationship between assemblies and NuGet packages, where the NuGet package has the same name as the assembly. For example, immutable collections which was delivered in a NuGet package called Microsoft.Bcl.Immutable is now in a package called System.Collections.Immutable.
 
 In addition, .NET Core uses semantic versioning for our assembly versioning. The version number of the NuGet package aligns with the assembly version. The alignment of naming and versioning between assemblies and packages help tremendously with discovery. There is no longer a mystery which NuGet packages contains System.Foo, Version=1.2.3.0 – it’s provided by the System.Foo package in version 1.2.3.
 
@@ -56,7 +56,7 @@ The NuGet based delivery also turns the .NET Core platform into an app-local fra
 
 Our decision to use NuGet as a delivery mechanism doesn’t change our commitment to compatibility. We continue to take compatibility extremely seriously and will not perform API or behavioral breaking changes once a package is marked as stable. However, the app-local deployment ensures that the rare case where a change that is considered additive breaks an application is isolated to development time only. In other words, for .NET Core, these breaks can only occur after you upgraded a package reference. In that very moment, you have two options: addressing the compatibility glitch in your application or rolling back to the previous version of the NuGet package. But in contrast to the .NET Framework, those breaks will not occur after you deployed the application to a customer or the production server.
 
-## Enterprise ready
+### Enterprise ready
 
 The NuGet deployment model enables agile releases and faster upgrades. However, we don’t want to compromise the one-stop-shop experience that the .NET Framework provides today.
 
@@ -77,7 +77,7 @@ The two biggest reasons to open source .NET Core were:
 1.	Build and leverage a stronger ecosystem: an open and transparent development process that allows the community to participate in code reviews, read design documents, and contribute changes to the product.
 2.	Lay the foundation for a cross platform .NET: the goal of .NET Core is having a single code base that can be used to build and support all the supported platforms.
 
-You can get involved by going to [associated open source project](https://github.com/dotnet/core/blob/master/README.md).
+You can get involved by going to [.NET Core Home on GitHub](https://github.com/dotnet/core/blob/master/README.md).
 
 ## .NET Execution Environment (DNX)
 
@@ -96,9 +96,10 @@ DNX is a general .NET Core concept and facility. It's the easiest way to acquire
 Note: DNX is not the only SDK for .NET Core. .NET Native, for example, is another one.
 
 You can learn more about DNX by visiting:
-- [DNX](http://dotnet.readthedocs.org/en/latest/dnx/index.html)
-- [ASP.NET 5 apps](https://github.com/aspnet/home)
-- [.NET Core console apps](https://github.com/dotnet/coreclr/blob/master/README.md#get-net-core)
+- [DNX documentation](http://dotnet.readthedocs.org/en/latest/dnx/index.html)
+- [Download DNX SDK](https://github.com/dotnet/coreclr/blob/master/README.md#get-net-core)
+- [ASP.NET 5](https://github.com/aspnet/home)
+
 
 
 
