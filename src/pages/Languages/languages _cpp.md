@@ -23,32 +23,42 @@ The following features bring the compiler closer to standard C++:
 - **constexpr:** Partial support for C++11 constexpr. *C++11* (partial)
 - **User-Defined Literals (UDLs):** Meaningful suffixes can be appended to numeric and string literals to give them specific semantics. The compiler interprets suffixed literals as calls to the appropriate UDL-operator. *C++11*
 - **Thread-Safe "Magic" Statics:** Static local variables are initialized in a thread-safe way, eliminating the need for manual synchronization. Only initialization is thread-safe, use of static local variables by multiple threads must still be manually synchronized. The thread-safe statics feature can be disabled by using the /Zc:threadSafeInitflag to avoid taking a dependency on the CRT. *C++11*
-- **Thread-Local Storage:** Use the thread_local keyword to declare that an independent object should be created for each thread. *C++11*
+- **Thread-Local Storage:** Use the thread\_local keyword to declare that an independent object should be created for each thread. *C++11*
 - **noexcept:** The noexcept operator can be used to check whether an expression might throw an exception. The noexcept specifier can be used to specify that a function does not throw exceptions. *C++11*
 - **Inline Namespaces:** A namespace can be specified as inline to hoist its contents into the enclosing namespace. Inline namespaces can be used to create versioned libraries that expose their most-recent version by default, while still making previous API versions available explicitly. *C++11*
-- **Unrestricted Unions:** A Union type can contain types with non-trivial constructors. Constructors for such unions must be defined. *C++11*
-- **New Character Types and Unicode Literals:** Character and string literals in UTF-8, UTF-16, and UTF-32 are supported and new character types char16_t and char32_t have been introduced. Character literals can be prefixed with u8 (UTF-8), u (UTF-16), or U (UTF-32) as in U'a', while string literals can additionally be prefixed with raw-string equivalents u8R (UTF-8 raw-string), uR (UTF-16 raw-string), or UR (UTF-32 raw-string). Universal character names can be freely used in unicode literals as in u'\u00EF', u8"\u00EF is i", and u"\U000000ef is I". *C++11*
-- **__func__:** The predefined identifier __func__ is implicitly defined as a string that contains the unqualified and unadorned name of the enclosing function. *C++11*
-- **__restrict:**  __restrict can be applied to references.
+- **Unrestricted Unions:** A union type can contain types with non-trivial constructors. Constructors for such unions must be defined. *C++11*
+- **New Character Types and Unicode Literals:** Character and string literals in UTF-8, UTF-16, and UTF-32 are supported and new character types char16\_t and char32\_t have been introduced. Character literals can be prefixed with u8 (UTF-8), u (UTF-16), or U (UTF-32) as in U'a', while string literals can additionally be prefixed with raw-string equivalents u8R (UTF-8 raw-string), uR (UTF-16 raw-string), or UR (UTF-32 raw-string). Universal character names can be freely used in unicode literals as in u'\u00EF', u8"\u00EF is i", and u"\U000000ef is I". *C++11*
+- **\_\_func\_\_:** The predefined identifier \_\_func\_\_ is implicitly defined as a string that contains the unqualified and unadorned name of the enclosing function. *C++11*
+- **\_\_restrict:**  \_\_restrict can be applied to references.
 - **Typename keyword:** Users can write typename instead of class in a template template parameter. *C++14*
-- The globals **void operator delete(void *, std::size_t) noexcept** and **void operator delete[](void *, std::size_t) noexcept** can be overloaded. *C++14*
+- The globals **void operator delete(void \*, std::size\_t) noexcept** and **void operator delete[](void \*, std::size\_t) noexcept** can be overloaded. *C++14*
 - **Digit separators:** You can intersperse numerical literals with single quotes to make them more readable. For example, int x = 1'000'000;. *C++14*
 - **Universal character names in literals:** You can write basic characters, like 'A' and the line feed character, as code points in literals. For example, const char *s = "\u0041\u000A";. *C++11*
 
-## Library Features
+## C++ Standard Library Features
 
-- **User-Defined Literals (UDLs) for Standard Library Types:** The <chrono>, <string>, and <complex> headers  provide UDL-operators for your convenience. For example, 123ms means std::chrono::milliseconds(123), "hello"s means std::string("hello"), and 3.14i means std::complex(0.0, 3.14).
-- **Creation of null forward iterators:** These are forward iterators that do not refer to a container instance. Such iterators are value-initialized and compare equal for a particular container type. Comparing a value-initialized iterator to one that is not value-initialized is undefined. *C++14*
-- **quoted():** The quoted() function makes working with quoted string values and I/O easier. With quoted(), an entire quoted string is treated as a single entity (as strings of non-whitespace characters are in I/O streams); in addition, escape sequences are preserved through I/O operations. *C++14*
-- **Heterogeneous associative lookup functions for associative containers:** Such functions enable lookup by types other than the key_type as long as the type is comparable to key_type. *C++14*
-- **Compile-time integer_sequence type:** Represents a sequence of integer values that can be evaluated at compile time to make working with parameter packs easier and to simplify certain template programming patterns. *C++14*
-- **std::exchange():** This utility funciton assigns a new value to an object and returns its old value. For complex types, exchange() avoids copying the old value when a move constructor is available, avoids copying the new value if it’s a temporary or is moved, and accepts any type as the new value taking advantage of any converting assignment operator. *C++14*
-- **Dual-Range overloads for equal(), is_permutation(), mismatch():** These overloads check that the two sequences are the same length, which removes this responsibility from the calling code; for sequences that don't support the requirements of a random iterator, these overloads check the length while comparing elements, which is more efficient. *C++14*
-- **get<T>() template function:** Allows tuple elements to be addressed by their type. If a tuple contains two or more elements of the same type get<T>() the tuple can't be addressed by that type, but other uniquely-typed elements can still be addressed. *C++14*
-- **tuple_element_t<I, T> type alias:** This is an alias for typename tuple_element<I, T>::type, providing some convenience for template programmers similar to the other metafunction type aliases in <type_traits>.  *C++14*
+- **User-Defined Literals (UDLs) for Standard Library Types:** The <chrono\>, <string\>, and <complex\> headers provide UDL operators for your convenience. For example, 123ms means std::chrono::milliseconds(123), "hello"s means std::string("hello"), and 3.14i means std::complex(0.0, 3.14).
+- **Null Forward Iterators:** The standard library now allows the creation of forward iterators that do not refer to a container instance. Such iterators are value-initialized and compare equal for a particular container type. Comparing a value-initialized iterator to one that is not value-initialized is undefined. *C++14*
+- **quoted()** The standard library now supports the quoted() function to make working with quoted string values and I/O easier. With quoted(), an entire quoted string is treated as a single entity (as strings of non-whitespace characters are in I/O streams); in addition, escape sequences are preserved through I/O operations. *C++14*
+- **Heterogeneous Associative Lookup** The standard library now supports heterogeneous lookup functions for associative containers. Such functions enable lookup by types other than the key\_type as long as the type is comparable to key\_type. *C++14*
+- **Compile-time Integer Sequences** The standard library now supports the integer_sequence type that represents a sequence of integer values that can be evaluated at compile time to make working with parameter packs easier and to simplify certain template programming patterns.  *C++14*
+- **exchange():** The standard library now supports the std::exchange() utility function to assign a new value to an object and returns its old value. For complex types, exchange() avoids copying the old value when a move constructor is available, avoids copying the new value if it’s a temporary or is moved, and accepts any type as the new value taking advantage of any converting assignment operator. *C++14*
+- **Dual-Range equal(), is_permutation(), mismatch()** The standard library now supports overloads for std::equal(), std::is\_permutation(), and std::mismatch() that accept two ranges. These overloads check that the two sequences are the same length, which removes this responsibility from the calling code; for sequences that don't support the requirements of a random iterator, these overloads check the length while comparing elements, which is more efficient. *C++14*
+- **get<T\>()** The standard library now supports the get<T\>() template function to allow tuple elements to be addressed by their type. If a tuple contains two or more elements of the same type get<T\>() the tuple can't be addressed by that type, but other uniquely-typed elements can still be addressed.  *C++14*
+- **tuple\_element\_t** The standard library now supports the tuple\_element\_t<I, T\> type alias which is an alias for typename tuple\_element<I, T\>::type. This provides some convenience for template programmers, similar to the other metafunction type aliases in <type\_traits\>.   *C++14*
 - **File System "V3" Technical Specification:** The included implementation of the File System Technical Specification has been updated to version 3 of the specification. [N3940]
-- **Minimal allocator interface throughout:** Notable fixes include std::function, shared_ptr, allocate_shared(), and basic_string. *C++11*
-- **<chrono>:** The chrono types high_resolution_clock and steady_clock have been fixed. *C++11*
+- **Minimal Allocators** The standard library now supports the minimal allocator interface throughout; notable fixes include std::function, shared\_ptr, allocate\_shared(), and basic_string. *C++11*
+- **<chrono\>:** The chrono types high_resolution\_clock and steady\_clock have been fixed. *C++11*
+
+## CRT Library Features
+
+- **C99 Support** Improved conformance to the C99 standard.
+- **Performance** Improved performance in many I/O functions.
+- **Simplified headers** Streamlined header file macro structure speeds up compilation and IntelliSense, and improves readability.
+
+## MFC Library Features
+
+- **Dynamic Layout** Resizeable dialogs in MFC, including changes to the resource editor to support specifying dynamic layout properties for controls on a resizeable dialog.
 
 ## Faster Builds
  
@@ -68,9 +78,14 @@ The following features bring the compiler closer to standard C++:
 - **Control Flow Guard (CFG):** By adding a new option to your project, the Visual C++ compiler injects extra security checks into your binaries to help detect attempts to hijack your code. When the check fires, it stops execution of your code before a hijacker can do damage to your data or PC.
 - **Updated command options:** Instead of using the /d2guard4 switch as you did in earlier releases, you should use /guard:cf. 
 
+## Windows 10 Support
+
+** Targeting Windows 10** Visual Studio now supports targeting Windows 10 in C++. New project templates  for Universal Windows App development support targeting Windows 10 devices such as desktop computers, mobile phones, tablets, HoloLens, and other devices.
+
 
 ## Productivity, Debugging, and Diagnostics
 
+- ** Single-File IntelliSense** You now get IntelliSense when you open a single source code file in the editor, without having to open any project file.
 - ** Refactoring support:** 
    - *Rename Symbol:* Changes all occurrences of a symbol to a new name.
    - *Function Extraction:* Move selected code into its own function. This refactoring is available as an extension to Visual Studio on the Visual Studio Gallery.
