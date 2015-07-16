@@ -13,7 +13,7 @@ Download today for [Windows](http://go.microsoft.com/fwlink/?LinkID=534107), [Li
 
 ### Language Coverage
 
-Visual Studio Code supports 30+ languages and counting, with syntax highlighting, bracket matching, and more. Languages include JavaScript, C#, C++, PHP, Java, HTML, R, CSS, SQL, Markdown, TypeScript, LESS, SASS, JSON, XML, and Python as well as many other common file formats.
+Visual Studio Code supports 30+ languages and counting, with syntax highlighting, bracket matching, and more. Languages include JavaScript, C#, C++, PHP, Java, HTML, R, CSS, SQL, Markdown ([including Markdown preview](http://go.microsoft.com/fwlink/?LinkId=618948)), TypeScript, LESS, SASS, JSON, XML, and Python as well as many other common file formats. VS Code also understands ES6 syntax elements and semantics.
 
 For the full set of languages and additional details, see [Language Support in Visual Studio Code](https://code.visualstudio.com/docs/languages).
 
@@ -40,6 +40,7 @@ IntelliSense describes APIs as you type, auto-completing to increase speed and a
 
 ![Visual Studio Code Understanding](_assets/Code_Understanding.png)
 
+For more details on this feature, see [IntelliSense](http://go.microsoft.com/fwlink/?LinkId=618930).
 
 ### Debugging: Break, watch, inspect
 
@@ -47,6 +48,7 @@ Diagnose issues with your application with integrated debugging tools for Node.j
 
 ![Visual Studio Code Debugging](_assets/Code_Debugging.png)
 
+Learn more about debugging [here](http://go.microsoft.com/fwlink/?LinkID=533694).
 
 ### Git version control: Commit, diff, pull and push
 
@@ -54,6 +56,7 @@ Embrace modern workflows with the power and flexibility of Git. See changed file
 
 ![Visual Studio Code Git Integration](_assets/Code_Git.png)
 
+See [Version Control](http://go.microsoft.com/fwlink/?LinkID=533695) for more details about Git integration.
 
 ### Make it yours: Choose your theme, customizable key bindings, and more
 
@@ -61,12 +64,15 @@ It’s one thing to be able to work with any source file, any Git remote and on 
 
 ![Visual Studio Code Customization](_assets/Code_Customize.png)
 
+Check out the customization details [here](http://go.microsoft.com/fwlink/?LinkID=533696).
+
 ### ASP.NET 5 and Node.js: Rich support for modern web technologies
 
 Visual Studio Code supports the end-to-end development workflow for ASP.NET 5 and Node.js applications. Full IntelliSense, debugging support, and more across all supported operating systems. Including many of your favorite frameworks such as D3, JQuery, Express, Angular, grunt, gulp, and more.
 
-![Visual Studio Code Customization](_assets/Code_ASPNET_Node.jpg)
+![Visual Studio Code Development](_assets/Code_ASPNET_Node.jpg)
 
+See more at [ASP.NET 5](http://go.microsoft.com/fwlink/?LinkID=533692) and [Node.js](http://go.microsoft.com/fwlink/?LinkID=533693).
 
 <br/>
-*For complete details, refer to the [Visual Studio Code Documentation](https://code.visualstudio.com/Docs).*
+*For complete details about this produce, refer to the [Visual Studio Code Documentation](https://code.visualstudio.com/Docs).*
