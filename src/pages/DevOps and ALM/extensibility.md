@@ -7,7 +7,7 @@
 />
 ## REST APIs
 
-JSON REST APIs enable customers and the community to develop custom solutions, making it possible to extend and integrate Visual Studio Online and Team Foundation Server into almost any scenario. These APIs enable a lightweight way to work with Team Foundation Server from virtually any device, platform, or technology stack, including Windows, Android, iOS, Node.js, and others. You can create and query work items, queue a build, get recent team room messages, access source code, and accomplish almost any team or code management task.
+REST APIs enable customers and the community to develop custom solutions, making it possible to extend and integrate Visual Studio Online and Team Foundation Server into almost any scenario. These APIs enable a lightweight way to achieve that integration from virtually any device, platform, or technology stack, including Windows, Android, iOS, Node.js, and others. You can create and query work items, queue a build, get recent team room messages, access source code, and accomplish almost any team or code management task.
 
 ## Service hooks
 
