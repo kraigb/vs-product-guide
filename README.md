@@ -1,11 +1,10 @@
 ## Visual Studio Product Guide Site
-(Cloned from https://github.com/aspnet/vsweb-docs)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/3s1bavm412p4bwp6?svg=true)](https://ci.appveyor.com/project/madskristensen/vsweb-docs)
+[![Build status](https://ci.appveyor.com/api/projects/status/80l5vw5ot62uh7kx?svg=true)](https://ci.appveyor.com/project/kraigb/vs-product-guide)
 
 [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
 
-Website: [vs-product-guide9c29.azurewebsites.net/](http://vs-product-guide9c29.azurewebsites.net/)
+Production Server: [http://vs-product-guide5be7.azurewebsites.net/](http://vs-product-guide5be7.azurewebsites.net/)
 
 ### Features
 
