@@ -1,15 +1,16 @@
 <properties
     pageTitle="Release Management"
-    description="TODO"
+    description="The faster your software is deployed, the quicker you can get feedback. With release management in Visual Studio you can configure, approve and deploy your applications for any environment. Create automated deployment orchestrations for each environment no matter how complex the configuration. Delivering your software more frequently and easily to an environment allows your testers to get to work validating your system and keeps your stakeholders involved in giving feedback."
     slug="releasemanagement"
     order="500"    
     keywords="visual studio, team foundation server, visual studio online, vs2015, vs, visualstudio, tfs, vso"
 />
-## Deployment
+
+### Deployment
 
 We've been working to more loosely couple our deployment automation capabilities with our Release Management feature.  In this change we’ve combined our build automation pipeline and deployment pipeline, using the same extensibility model for both.  That means the same deployment tasks can be seamlessly used as part of a simple build/deploy workflow or as part of a larger release management workflow with multiple deployments, validations, approvals, etc.  This greatly simplifies our story and improves flexibility.
 
-Work we’ve done in deployment includes:
+Deployment improvements:
 
  - **Deploy to cloud or on premises:** You can deploy applications both to cloud and on premises environments.
  - **Auto-provision cloud environments:** Using Azure, you can automatically provision the hardware as part of the deployment process.  Ultimately we’ll enable this on prem as well by bringing it together with our existing lab management capabilities on top of SCVMM.
@@ -28,3 +29,10 @@ Testing plays a critical role in any modern DevOps release pipeline.  Above, as 
 
 ![](_assets/ReleaseManagement-TestAnalysis.png)
 
+### Improved performance
+
+Release Management for Visual Studio 2015 improves upon the performance of Visual Studio 2013 in the following areas:
+- The release management client launch page, which shows an overview of the release process and notifications.
+- Rendering and interactivity in other release management client pages, through additional caching.
+- Synchronization of Active Directory and TFS security groups.
+- Creation of new releases.
