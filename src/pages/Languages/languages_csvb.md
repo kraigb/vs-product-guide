@@ -28,7 +28,7 @@ New C# and Visual Basic language features help reduce boilerplate and clutter in
 - **Parameterless constructors** in structs are allowed.
 - **Index initializers** extend object initializers so that you can now initialize not only members but also indices of the newly created object.
 
-_For complete details with code samples for C#, see [New Features in C# 6](http://blogs.msdn.com/b/csharpfaq/archive/2014/11/20/new-features-in-c-6.aspx)._
+For complete details, see [What's New for Visual C#]](https://msdn.microsoft.com/library/9f18dc26-27fa-4603-a639-b573f07a117b(v=vs.140).aspx) on MSDN.
 
 
 ## Additional Visual Basic Features
@@ -37,4 +37,4 @@ _For complete details with code samples for C#, see [New Features in C# 6](http:
 - **Multiline Strings:** Previously, you had to use cumbersome workarounds to get multiline strings in Visual Basic. VB14 supports multiline strings literals directly.
 - **Comments:** are handled better in statements that split over multiple lines. This is particularly nice for LINQ expressions. 
 
-_For complete details with code samples for Visual Basic, see [New Language Features in Visual Basic 14](http://blogs.msdn.com/b/vbteam/archive/2014/12/09/new-language-features-in-visual-basic-14.aspx) as well as [New Language Features in VB 14](https://roslyn.codeplex.com/discussions/571884)._
+For complete details, see [What's New for Visual Basic](https://msdn.microsoft.com/library/d7e97396-7f42-4873-a81c-4ebcc4b6ca02(v=vs.140).aspx) on MSDN.
