@@ -58,6 +58,8 @@ The EF runtime will be installed if you create a new model using the Entity Fram
 
 The runtime is pre-installed in new ASP.NET projects, depending on the project template you select. The EF 6.1.3 Tools for Visual Studio 2015 are included to make sure you get the latest bug fixes and improvements.
 
+For more information EF 6.1.3, see the blog post[Entity Framework 6.1.3 RTM Available](http://blogs.msdn.com/b/adonet/archive/2015/03/10/ef6-1-3-rtm-available.aspx).
+
 ## Project templates for ASP.NET 5
 
 - **New templates:** The "New ASP.NET Project" dialog for C# includes "ASP.NET 5 Empty" and "ASP.NET 5 Starter Web" templates. The "New Project" dialog under "Visual C#"/Web includes "ASP.NET 5 Class Library" and "ASP.NET 5 Console Application" templates.
