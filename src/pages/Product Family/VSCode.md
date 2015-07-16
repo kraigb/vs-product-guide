@@ -26,6 +26,7 @@ A lightweight editor with first-class keyboard-centric gestures and multiple cur
 
 ![Visual Studio Code Editing](_assets/Code_Editing.png)
 
+Get complete details on editing features [here](http://go.microsoft.com/fwlink/?LinkID=533689). 
 
 ### Code navigation: RegEx find, outlining, peek definition
 
@@ -72,7 +73,7 @@ Visual Studio Code supports the end-to-end development workflow for ASP.NET 5 an
 
 ![Visual Studio Code Development](_assets/Code_ASPNET_Node.jpg)
 
-See more at [ASP.NET 5](http://go.microsoft.com/fwlink/?LinkID=533692) and [Node.js](http://go.microsoft.com/fwlink/?LinkID=533693).
+Learn more at [ASP.NET 5](http://go.microsoft.com/fwlink/?LinkID=533692) and [Node.js](http://go.microsoft.com/fwlink/?LinkID=533693).
 
 <br/>
-*For complete details about this produce, refer to the [Visual Studio Code Documentation](https://code.visualstudio.com/Docs).*
+*For complete details about this product, refer to the [Visual Studio Code Documentation](https://code.visualstudio.com/Docs).*
