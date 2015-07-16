@@ -28,7 +28,7 @@ New C# and Visual Basic language features help reduce boilerplate and clutter in
 - **Parameterless constructors** in structs are allowed.
 - **Index initializers** extend object initializers so that you can now initialize not only members but also indices of the newly created object.
 
-For complete details, see [What's New for Visual C#]](https://msdn.microsoft.com/library/9f18dc26-27fa-4603-a639-b573f07a117b(v=vs.140).aspx) on MSDN.
+For complete details, see [What's New for Visual C#](https://msdn.microsoft.com/library/9f18dc26-27fa-4603-a639-b573f07a117b(v=vs.140).aspx) on MSDN.
 
 
 ## Additional Visual Basic Features
