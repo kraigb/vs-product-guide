@@ -1,7 +1,7 @@
 <properties
     pageTitle="Product Family"
     description="The latest releases in the Visual Studio family of products continue to invest in core capabilities that empower developers and teams who are building for Web, desktop, mobile, and cloud applications"
-    slug="productfamily"
+    slug="productfamily2015"
     order="100"    
     keywords="visual studio, team foundation server, visual studio online, vs2015, vs, visualstudio, tfs, vso"
 />
