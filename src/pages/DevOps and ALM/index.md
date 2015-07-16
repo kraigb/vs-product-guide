@@ -5,16 +5,16 @@
     order="600"    
     keywords="visual studio, visual studio online, vs2015, vs, visualstudio, vso, alm, devops"
 />
-[Visual Studio Online](https://www.visualstudio.com/en-us/products/what-is-visual-studio-online-vs) delivers continuous innovation services for agile team collaboration and DevOps/Application Lifecycle Management (ALM). Its cloud-powered tools work with your existing IDE or editor, as well as through any browser, so every member of team can work effectively on all types of software projects from anywhere in the world. For up-to-date news on   
+[Visual Studio Online](https://www.visualstudio.com/en-us/products/what-is-visual-studio-online-vs) delivers continuous innovation services for agile team collaboration and DevOps/Application Lifecycle Management (ALM). Its cloud-powered tools work with your existing IDE or editor, as well as through any browser, so every member of team can work effectively on all types of software projects from anywhere in the world. 
 
-Team Foundation Server gives on-premises customers many of these same capabilities, which are delivered through regular TFS updates and roll up into major releases like TFS 2015. The [Visual Studio Online Features Timeline](https://www.visualstudio.com/en-us/news/release-archive-vso) provides a complete reference for what features appear in which service updates to Visual Studio Online and in which updates to TFS.
+Team Foundation Server delivers many of these same capabilities, to on-premises customers through regular TFS updates, which then roll up into major releases like TFS 2015. The [Visual Studio Online Features Timeline](https://www.visualstudio.com/en-us/news/release-archive-vso) provides a complete reference for what features appear in which service updates to Visual Studio Online and in which updates to TFS.
 
 Key features rolling out in TFS 2015, among many, include the following:
 
  - A **[new extensibility model](veoextensibility)** including REST APIs, service hooks, and server extensions.
- - **[Improved agile planning tools](agileplanning)** including **[Kanban enhancements](kanban)**.
- - New features for **[source control](sourcecontrol)** to improve process efficiency.
- - The new **[Build.Preview](buildvnext)** system that includes  cross-platform support.
+ - **[Improved agile tools](agileplanning)** including **[Kanban enhancements](kanban)**.
+ - New features for **[version control](sourcecontrol)** to improve process efficiency.
+ - The new **[Build](buildvnext)** system that includes  cross-platform support.
 
 In calendar year 2015, Visual Studio Online is also bringing out a new **[Release Management Service](releasemanagement)**, and Microsoft plans to bring **[Application Insights](appinsights)**, now in preview, to general availability.
 
@@ -39,7 +39,7 @@ There are also a number of other notable features recently released with Visual 
 
 ### *Team Foundation Server only*
 
-- **Expanded Basic license:** users with a Basic license to Team Foundation Server have access to Web-based test execution, team rooms, work item chart authoring, and agile portfolio planning tools. This means that all teams of five or fewer members with a "Basic" license have access to these features using Team Web Access for free, while larger teams can access this functionality at a much lower price point.
+- **Expanded Basic license:** users with a Basic license to Team Foundation Server have access to Web-based test execution, team rooms, work item chart authoring, and agile portfolio planning tools. This means that all teams of five or fewer members with a "Basic" license have access to these features using the web portal for free, while larger teams can access this functionality at a much lower price point.
 
 - **Project Server Extensions:** TFS Extensions for Project Server enables integration with Project Server 2013. These extensions are similar to the SharePoint Extensions for Team Foundation Server 2013 and need to be installed on all of the front end servers in your SharePoint farm that is supporting Project Server 2013. The Extensions enable teams to create Enterprise Project Plans in Project Server 2013 and sync data between it and Team Projects in TFS. To obtain these extensions, visit the [Downloads page](http://go.microsoft.com/fwlink/?LinkId=517106) and expand the TFS 2015 section.
 
