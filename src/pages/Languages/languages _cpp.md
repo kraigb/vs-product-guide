@@ -52,9 +52,9 @@ The following features bring the compiler closer to standard C++:
 
 ## CRT Library Features
 
-- **C99 Support** Improved conformance to the C99 standard.
-- **Performance** Improved performance in many I/O functions.
-- **Simplified headers** Streamlined header file macro structure speeds up compilation and IntelliSense, and improves readability.
+- **CRT Library Refactoring** The CRT has been refactored into two parts. The Universal CRT contains the code that implements the standard C runtime library. The vcruntime140.dll (or .lib) contains version-specific code for process start-up and exception handling. The Universal CRT has a stable API, so it can be used without changing the version number in each release of Visual Studio. It's now a Windows operating system component that is serviced by Windows Update. It's already installed in Windows 10. By using the Visual C++ Redistributable Package (vcredist), you can distribute it together with your applications for earlier versions of Windows.
+- **C99 Conformance** Visual Studio 2015 fully implements the C99 Standard Library, with the exception of any library features that depend on compiler features not yet supported by the Visual C++ compiler (for example, <tgmath.h> is not implemented)..
+- **Performance** Much of the library has been refactored to streamline and simplify header file macro usage. This speeds up compilation and IntelliSense, and improves readability. In addition, many stdio functions have been rewritten for both standards compliance and improved performance.
 
 ## MFC Library Features
 
@@ -80,7 +80,7 @@ The following features bring the compiler closer to standard C++:
 
 ## Windows 10 Support
 
-** Targeting Windows 10** Visual Studio now supports targeting Windows 10 in C++. New project templates  for Universal Windows App development support targeting Windows 10 devices such as desktop computers, mobile phones, tablets, HoloLens, and other devices.
+**Targeting Windows 10** Visual Studio now supports targeting Windows 10 in C++. New project templates  for Universal Windows App development support targeting Windows 10 devices such as desktop computers, mobile phones, tablets,  and other devices.
 
 
 ## Productivity, Debugging, and Diagnostics
