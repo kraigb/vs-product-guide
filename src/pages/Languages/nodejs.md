@@ -10,7 +10,7 @@
 
 [Node.js Tools for Visual Studio (NTVS)](http://aka.ms/ntvslatest) is a free, open-source extension that turns Visual Studio into a Node.js IDE. It enables you to unleash the full power of Visual Studio to develop and deploy Node.js solutions with our broad range of features: IntelliSense, advanced debugging and profiling, npm Integration, unit testing, interactive window, source control, cloud deployment, and more.
 
-![Node.js tools](_assets/node-12.png)
+![Node.js tools](_assets/node-12.jpg)
 
 Node.js Tools 1.1 RC for Visual Studio adds support for Visual Studio 2015 and a new Linux-based Dockerfile template to make it easier to get your app up and running in a Docker container. It also makes enhancements to IntelliSense, formatting, debugging, TypeScript, unit test running/debugging, npm Integration, and more.
 
