@@ -12,7 +12,7 @@ Visual Studio 2015 brings many improvements in the IDE, debugging and diagnostic
 - **[Debugging & Diagnostics](debugdiag)**
 - **[Code Visualization](codeviz)**
 - **[IntelliTest for .NET](testing)**
-- **[Azure SDK for .NET](azuresdk26)**
+- **[Azure SDK for .NET](azuresdk)**
 - **[GitHub Integration](productivitygit)**
 
 Complete details can be found in the [Visual Studio 2015 Release Notes](https://www.visualstudio.com/news/vs2015-vs).
