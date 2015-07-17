@@ -10,22 +10,38 @@
 
 Find out more about your code, while staying focused on your work in the editor. Find code references, changes to your code, related TFS items, and unit tests – all without looking away from the code. 
 
-Look for patterns in changes to the code, so you can assess the impact. CodeLens shows change history as a chart for code in Git.
 
-![View your team's code changes with CodeLens](_assets/codeviz-codelens1.png) 
+For Visual Studio 2015, we have replaced the CodeLens "Authors" indicators with the new "Team Activity Timeline" and "Authors and Changes" history indicators. 
+- The **Team Activity Timeline indicator** shows the last author, and when the last change was made. Choosing this indicator opens **Team Activity View**, where you can look for patterns in changes to the code. This can help you to assess the impact of changes over time.
+- The **Authors and Changes indicator** shows the number of authors that have changed the file, and the number of changes. Choosing this indicator opens a list of all the changes, details of the changes, and links to get more information and see the previous versions.
 
-You can also see the history of your files versioned in Git repositories by using CodeLens file-level indicators. And when you are working with source control in Git and work items in TFS, you can also can get information about the work items associated with these files by using CodeLens file-level work items indicators.
+All the information from the indicators is available when your code is hosted in Team Foundation Version Control (in both Team Foundation Server and Visual Studio Online) and in Git repositories. When you are working in Team Foundation Server or Visual Studio Online, you can also get information about work items.
 
-![CodeLens file level team indicators](_assets/codeviz-codelens2.png)
- 
-Combined authors and When last changed CodeLens indicators also display how long ago the last change happened.
+These indicators, together with the indicators available in previous versions, are displayed at the code element (method, field, or class) level for C# and Visual Basic files. The following is an example of the Team Activity Timeline indicator for a C# file: 
+
+![View your team's code changes with CodeLens](_assets/codeviz-3.png)
+
+The following is an example of the Authors and Changes indicator for a C# file:
+
+![Authors and changes indicator](_assets/codeviz-4.png)
+
+The indicators are also displayed at file level for all other types of files (for example, C++, SQL, JavaScript, and other types of files). The following is an example of the Team Activity Timeline indicator for a file that is not a C# or Visual Basic code file:
+
+![Team activity timeline](_assets/codeviz-5.png)
+
 
 
 ## Code Maps and Dependency Graphs
 
-When you want to understand specific dependencies in your code, visualize them by creating Code Maps. You can then navigate these relationships by using the map, which appears next to your code. 
+When you want to understand specific dependencies in your code, visualize them by creating **Code Maps**. You can then navigate these relationships by using the map, which appears next to your code. Code maps can also help you keep track of your place in the code while you work or debug code, so you'll read less code while you learn more about your code's design.
 
-Code Maps can also help you keep track of your place in the code while you work, so you'll read less code while you learn more about your code’s design. 
+The shortcut menus for code elements and links are easier to use in Visual Studio 2015 by grouping commands into sections related to selecting, editing, managing groups, and changing the layout of group contents. Notice also that test projects are displayed in a different style from other projects, and that we updated the icons for elements on the map to more appropriate versions. 
+
+![Code maps](_assets/codeviz-6.png)
+ 
+Contents of code elements are displayed so that you can select more than one group and apply the layout style you want to all of them. You can always get a useful dependency diagram when you expand an assembly, a namespace, or a type on a code map.
+
+![Code map dependency diagram](_assets/codeviz-7.png)
 
 New features for Visual Studio 2015:
 
