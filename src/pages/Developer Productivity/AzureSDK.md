@@ -1,7 +1,7 @@
 <properties
-    pageTitle="Azure SDK 2.6 and Azure SDK 2.7 for .NET"
+    pageTitle="Azure SDK for .NET"
     description="The Azure SDK for .NET is a set of Visual Studio tools, command-line tools, runtime binaries, and client libraries that help you develop, test, and deploy apps that run in Azure."
-    slug="azuresdk26"
+    slug="azuresdk"
     order="600"
     keywords="visual studio, vs2015, vs, visualstudio, productivity, ide, azure, azure SDK"
 />
