@@ -7,7 +7,9 @@
 />
 Azure SDK 2.6 and Azure SDK 2.7 continues to build on innovations in previous releases, and includes the following for Visual Studio 2015.
 
-[Learn More](https://azure.microsoft.com/en-us/develop/net/) | [Download the Azure SDK for .NET](http://azure.microsoft.com/en-us/downloads/archive-net-downloads/)
+- [Learn more about the Azure SDK](https://azure.microsoft.com/en-us/develop/net/).
+- [Download the Azure SDK for .NET](http://azure.microsoft.com/en-us/downloads/archive-net-downloads/)
+
 
 
 ### Azure Resource Manager Tools
