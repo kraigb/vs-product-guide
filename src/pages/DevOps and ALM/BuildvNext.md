@@ -1,61 +1,126 @@
 <properties
-    pageTitle="Build.Preview"
-    description="The next generation of build will enable teams to more easily create custom-build workflows by introducing reusable tasks and leverages a lightweight, Web-based authoring environment."
+    pageTitle="Build"
+    description="No matter what tools you use. In whatever language you prefer. Team Foundation Build (TFBuild) 2015 builds your app, your way, for your platforms. Just open your web browser to tell us how you want it done."
     slug="buildvnext"
     order="400"    
     keywords="visual studio, team foundation server, visual studio online, vs2015, vs, visualstudio, tfs, vso"
 />
 
-The new build system of Visual Studio Online and TFS will be capable of building code from external systems such as GitHub by leveraging the REST APIs and service hooks infrastructure available in Visual Studio Online. In addition, a new cross-platform build agent will allow teams to run builds on non-Windows machines. This makes it possible, for the first time, to build on Linux and Mac OS X machines. Team Foundation Server 2015 also includes in-box support for Ant, Maven, and Gradle.
+## Build for your platform, speaking your language
 
-What does this mean for your existing investments in Team Build? Moving forward, the build automation features that shipped in TFS 2010, 2012, 2013 and Visual Studio Online based on the Windows Workflow engine will be referred to as XAML Builds. TFS 2015 and Visual Studio Online will continue to support the XAML Build templates and controllers. This means that when you upgrade your on-premises servers, everything will continue to work just as it does today. The two build systems run side by side and do not interfere with each other.
+Build for Windows, iOS, Android, Java, or Linux using the same domain-specific languages (DSL) you use every day on your dev machine.
 
 
-## Easy customization 
-
-There is no need to ramp up on a platform specific build DSL. You can simply pick from a selection of build steps and set a few properties. You will have the ability to create your own tasks or import tasks from the community. These tasks will be instantly available for your users.
-
-![](_assets/BuildvNext-Customization.png)
- 
-
-## Real-time visibility of builds 
-
-See the status of your build in real time from your web browser. The console view gives you a very similar experience to watching your build in your command shell.
-
-![](_assets/BuildvNext-RealTimeVisibility.png) 
+![Add build steps](_assets/Build_add-build-steps.png)
 
 
 ## Cross-platform builds 
 
 Build native iOS, Android, Java and Linux out of the box. Java builds can incorporate Ant, Maven, and Gradle.
 
-![](_assets/BuildvNext-CrossPlatform.png)
+![Cross-platform builds](_assets/BuildvNext-CrossPlatform.png)
 
 ## Xamarin support
   
-We also support building Xamarin apps for iOS and Android, and the new build system can build Xamarin apps for Windows Phone. We've also added support for running tests on Xamarin's Test Cloud as part of the build, and have enabled publishing the Test Cloud test results back to VSO/TFS.
-
-<TODO: more on this>
-
-## Run unit tests and publish results 
-
-We now have a task to run unit tests using just about any framework you like – NUnit, MSTest, JUnit, etc. – and publish the test results back to VSO/TFS and include them in the build report.
+Build Xamarin apps for iOS and Android, and Windows Phone, with support for running tests on Xamarin's Test Cloud as part of the build and publishing the Test Cloud test results back to VSO/TFS.
 
 
-## Compare versions of build definitions 
+## Easy customization 
 
-Quickly see who last changed the build definition and get a sense of what they changed.
+Edit in the web and leverage existing knowledge of popular script languages. No need to ramp up on XAML workflow to customize the build. 
 
-![](_assets/BuildvNext-CompareVersions.png) 
+![Easy build customization](_assets/Build_add-build-steps-utility.png)
+ 
 
-View the details.
+## Extensible tasks and build engine
 
-![](_assets/BuildvNext-CompareVersionsDetails.png) 
+If you need to add a task we don't currently offer, you can create your own activity using our [open source activities](https://github.com/Microsoft/vso-agent-tasks) as examples of best practices. 
 
-All this information gives you an audit trail for your build definitions too.
+You can deploy our open-source Node.js [cross-platform build agent](https://github.com/Microsoft/vso-agent) on Mac and Linux systems.
 
 
-## Auto updating build agents
+## Real-time build status 
 
-There's no need to run around and update all your build agents any more.  The server/service will automatically distribute agent updates.  This won't change any of the tools (compilers, etc) just the build automation agent.
+Live console view in the web with real time status of each task.
 
+![Real-time build status ](_assets/BuildvNext-RealTimeVisibility.png) 
+
+We also provide real time status and time breakdowns project by project:
+
+![Real-time build status by project](_assets/BuildvNext-RealTimeVisibility2.png)
+
+
+## Definition auditing and diff
+
+Know who changed what in the build definition and when they did it.
+
+![Definition auditing](_assets/build-definition-history.png)
+
+![Definition diff](_assets/build-definition-history-diff.png)
+
+
+## Elastic use of self-updating resources
+
+Agents can span team project collections. Side-by-side installs and remote agents are xcopy (download from the web UI). No need to install TFS on your build machines.
+
+You can stop running around and worrying about updating your build agents when we release a new version. Visual Studio Online (or your on-premisies Team Foundation Server) automatically distributes agent updates, leaving in place whatever capabilities (such as compilers, SDKs, or tools) you've installed on those machines.
+
+## Better control of agent routing
+
+Definitions route to the right agent with capabilities needed by the definition.
+
+![Control of agent routing](_assets/Build_agent-capabilities.png)
+
+
+## Secret variables
+
+Lock a variable to hide it from the web and store it in a strong box.
+
+![Secret variables](_assets/Build_BldVarSecret.png)
+
+
+## Azure continuous deployment improved
+
+Supports publish multiple web sites and cloud services in a definition. 
+
+Also, you can deploy from on-premise TFS to Azure.
+
+![Azure deployment](_assets/Build_azure-deployment-templates.png)
+
+
+
+## CI improved
+
+Monitor and track multiple branches. Associate your builds with each branch.
+
+![Improved CI](_assets/Build_ci-build-trigger-with-multiple-branches.png)
+
+
+## Build matrix
+
+Multiply build jobs by any set of variables. Optionally run in parallel across multiple agents.
+
+![Build matrix](_assets/Build_matrix.png)
+
+
+## True templates
+
+Most build scenarios are new definition, couple inputs, go. Save as custom templates.
+
+![True templates](_assets/Build_template.png)
+
+
+## Definition drafts
+
+To test some changes that are not yet ready for production, save a draft.
+
+![Save as a draft](_assets/Build_DefSaveDraft1.png)
+
+When you're ready you can publish and keep the changes or delete them.
+
+
+## Clone definitions
+
+Definitions can be cloned.
+
+![Cloning a build definition](_assets/Build_clone.png)
