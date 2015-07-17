@@ -1,52 +1,63 @@
 <properties
     pageTitle="Version Control"
-    description="Planning, tracking, and executing on work is the heart of any agile process, and we continue to make the process more efficient."
+    description="With updates in Team Foundation Server 2015 and Visual Studio Online, you have new capabilities for working efficiently with your version control repositories."
     slug="sourcecontrol"
     order="267"    
-    keywords="visual studio, team foundation server, visual studio online, vs2015, vs, visualstudio, tfs, vso"
+    keywords="visual studio, team foundation server, visual studio online, vs2015, vs, visualstudio, tfs, vso, version control"
 />
 
 
-##Quick code editing
+## Web edit
 
 You can make a quick edit to a file in version control directly from your web browser and then commit those changes straight back to the service. When browsing a source file, an Edit command puts the file into editing mode. Changes can then be made inline, complete with color coding and formatting support. As soon as you click the Save command, we create a new commit/changeset with your changes. Use the diff view to see exactly what changes you’re making before committing the changes. If the file is a Markdown or HTML file, you can also preview your changes before you save them.
 
-![](_assets/Edit-VSO-browser2.png)
+![Edit a file in the browser](_assets/VC_edit-file-in-web-browser-1.png)
 
-You can also add, delete and rename files directly from the web. To add a new file (or files), right-click a folder in your repository, select Add file(s), enter your check-in/commit comment, and you're ready to go. The days are gone when you have to download your entire codebase just to rename or delete a file.
+To make sure your changes are good, compare with the previous commit. When you are ready, commit to a new branch and create a pull request to merge the changes.
 
-![](_assets/Edit-VSO-browser3.png)
+![Edit a file in the browser](_assets/VC_edit-file-in-web-browser-2.png)
 
-The editing capabilities also show up in the Welcome hub, making it easy to create documentation for your projects. If you don't have a README.md file, you can start with our template guide and commit your own.
+You can also add, rename, and delete files.
 
-![](_assets/Edit-VSO-browser4.png)
+![Add, rename, delete, or edit a file in the browser](_assets/VC_add-edit-delete-rename-in-web-browser.png)
 
-You're also able to create links to existing (or new) markdown files by following the syntax. Don't worry if the page doesn’t exist, because you can edit and commit the new file when you click the link, wiki-style.
-
-![](_assets/Edit-VSO-browser5.png)
+Note: To add a new folder, you must use a client tool such as Visual Studio.
 
 
-## Code review policies
 
-Git projects can now set branch policies to require code reviews for any code submitted into a branch. Enabling the code review policies for a branch will enforce that all code must be submitted to that branch using pull requests. The policies provide options to require a minimum number of code reviewers, as well as to require specific reviewers for particular paths and/or file types.
+## New web history view
+
+You can view the history of pushes and pull requests in a branch.
+
+![Branch Updates sub-tab in History tab](_assets/VC_history-branch-updates.png)
 
 
-## Code Policies - Gated Build
 
-Git projects can now set branch policies to require a successful build before any code can be submitted into a branch. Enabling the build policy will require the use of pull request to submit changes into the configured branch, and completion of the pull request will be gated upon the successful outcome of the configured build. 
+## Pull requests
 
-## History control
+Instead of merging on your dev machine, create a pull request to make sure your code quality is high before you merge.
 
-We have optimized the history control to make discussions easier to read. Specifically, we’ve reduced the vertical space required so that you can get to the discussions you want to see more quickly, and we’ve done this without reducing functionality.
+![Create pull request alert](_assets/VC_create-pull-request-alert-button.png)
 
-## View history on a folder
+Your team can see the code changes, leave comments in the code, and give a "thumbs up" approval if they're satisfied with those changes. 
 
-Now, you can right click on any folder in Solution Explorer, the Changes page, or the Commit Details page, and get the history of changes to files within that folder. 
+![Leave comments in code](_assets/VC_LeaveComment1.png)
 
-## Branch history (pushes & pull requests)
 
-In the web portal, the History hub under CODE has been updated to support a new view for Git projects. The new "Branch Updates" view shows all of the updates for a given branch, and groups commits by Push and Pull Request activity. This view provides developers a new insight into how their Git repo is being updated over time, and provides traceability from History to Pull Requests.
+## Branch policies
 
-## Improved merge performance
+Branch policies help teams protect their important branches.
 
-We have improved merge performance, which is especially apparent on large repos.
+![Requiring code reviews](_assets/VC_RequireCodeReviews.png)
+
+After you configure a branch policy, your team must merge using a pull request. You cannot directly push or merge changes to the branch.
+
+![Error, pushes to this branch are not permitted](_assets/VC_VSPushFail.png)
+
+You can specify required reviewers. 
+
+![Enter the path and required reviewers](_assets/VC_RequireSpecificReviewers.png)
+
+You can also specify that if the build does not succeed, the policy rejects the pull request.
+
+![Build rejected with details link](_assets/VC_BuildRejected.png)
