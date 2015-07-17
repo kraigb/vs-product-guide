@@ -124,3 +124,11 @@ When you're ready you can publish and keep the changes or delete them.
 Definitions can be cloned.
 
 ![Cloning a build definition](_assets/Build_clone.png)
+
+
+## Additional features
+
+- **Auto updating build agents:** There's no need to run around and update all your build agents any more.  The server/service will automatically distribute agent updates. This won't change any of the tools (compilers, etc) just the build automation agent.
+- **Seamless integration with XAML builds:** New definitions and the earlier XAML build definitions now share the same Build tab and can coexist happily.
+- **Build Java projects:** Ant, Maven, Gradle.
+- **Run unit tests and publish results:** There is a task to run unit tests using just about any framework you like (NUnit, MSTest, JUnit, etc.), publish the test results back to VSO/TFS, and include them in the build report.
