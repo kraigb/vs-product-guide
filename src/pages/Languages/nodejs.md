@@ -1,17 +1,24 @@
 <properties
     pageTitle="Node.js Tools"
-    description="Node.js is a platform built on the JavaScript runtime of Google Chrome, which you can run on various platforms including Linux, Mac OS X, and Windows. With Node.js Tools for Visual Studio, developers can take advantage of an official Microsoft open-sourced extension that enables first-class Visual Studio tooling support for Node.js projects."
+    description="Node.js is a platform for building fast, scalable applications using JavaScript, which you can run on various platforms including Linux, Mac OS X, and Windows. With Node.js Tools for Visual Studio, developers can take advantage of an official Microsoft open-source extension that enables first-class Visual Studio tooling support for Node.js projects."
     slug="nodejs"
     order="700"    
     keywords="visual studio, vs2015, vs, visualstudio, cross-platform, server, linux, windows, languages, node, node.js"
 />
 
 
-[Node.js Tools for Visual Studio (NTVS)](http://aka.ms/ntvslatest) is a free, open-source plug-in that turns Visual Studio into a Node.js Integrated Development Environment (IDE). It enables you to unleash the full power of Visual Studio to develop Node.js solutions with our broad range of features: IntelliSense, cross platform and remote debugging, profiling, npm integration, edit and continue, TypeScript, and an integrated REPL window. NTVS also includes a list of project templates using common Node.js frameworks that make it easy to quickly create and deploy websites to Microsoft Azure App Service (Azure Websites) or Cloud Services.
 
-Node.js Tools for Visual Studio 1.1 adds support for Visual Studio 2015 and makes enhancements to the code-formatting experience, among other improvements.
+[Node.js Tools for Visual Studio (NTVS)](http://aka.ms/ntvslatest) is a free, open-source extension that turns Visual Studio into a Node.js IDE. It enables you to unleash the full power of Visual Studio to develop and deploy Node.js solutions with our broad range of features: IntelliSense, advanced debugging and profiling, npm Integration, unit testing, interactive window, source control, cloud deployment, and more.
 
-It also supports for an IoT extension that enables developers to deploy Node.js-based Universal Windows apps to Windows IoT Core devices like Raspberry Pi 2, and extends some of the IntelliSense and debugging functionality. Download the Node.js Tools for Visual Studio IoT extension from the [Windows Embedded Pre-Release Program](https://connect.microsoft.com/windowsembeddedIoT/Downloads/) (it is necessary to sign in and join that program to download the extension).
+![Node.js tools](_assets/node-12.png)
+
+Node.js Tools 1.1 RC for Visual Studio adds support for Visual Studio 2015 and a new Linux-based Dockerfile template to make it easier to get your app up and running in a Docker container. It also makes enhancements to IntelliSense, formatting, debugging, TypeScript, unit test running/debugging, npm Integration, and more.
+
+Additionally, it supports a new IoT extension that enables developers to deploy Node.js-based Universal Windows apps to Windows IoT Core devices like Raspberry Pi 2, and extends some of the IntelliSense and debugging functionality. Download the Node.js Tools for Visual Studio IoT extension from the [Windows Embedded Pre-Release Program](https://connect.microsoft.com/windowsembeddedIoT/Downloads/) (it is necessary to sign in and join that program to download the extension).
+
+Check out the full [NTVS 1.1 RC release notes](http://aka.ms/ntvslatest) to learn more about the latest release and download the free tools.
+
+
 
 ## Key Features
 
@@ -80,7 +87,7 @@ Create, test, and deploy web applications written with Node.js, and debug them f
 ![Node.js and Azure](_assets/node-10.png)
 
 
-### Customize tools with extensions for Grunt, Gulp, and more
+### Customize yout tools with extensions for Grunt, Gulp, and more
 
 Complement your experience with the many JavaScript and Node.js extensions available in the Visual Studio Gallery. Popular extensions include: 
 
