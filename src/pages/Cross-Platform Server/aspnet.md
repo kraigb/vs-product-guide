@@ -1,6 +1,6 @@
 <properties
     pageTitle="ASP.NET and Entity Framework"
-    description="ASP.NET 5 and Entity Framework 7 have been optimized for cloud deployments by reducing their memory footprint and increasing their throughput. They are open source and cross platform and are able to run on the traditional .NET Framework 4.6 as well as the new cloud-optimized .NET Core 5. Visual Studio 2015 alo has many enhancements for client-side web development."
+    description="ASP.NET 5 and Entity Framework 7 have been optimized for cloud deployments by reducing their memory footprint and increasing their throughput. They are open source and cross platform and are able to run on the traditional .NET Framework 4.6 as well as the new cloud-optimized .NET Core 5. Visual Studio 2015 also has many enhancements for client-side web development."
     slug="servernetfx"
     order="200"    
     keywords="visual studio, vs2015, vs, visualstudio, cross-platform, server, linux, windows"
