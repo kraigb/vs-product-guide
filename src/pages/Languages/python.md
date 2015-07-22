@@ -26,8 +26,6 @@ Recent updates include:
 
 The tools can be automatically installed with Visual Studio 2015 by checking the Python Tools for Visual Studio box under the Programming Languages option.
 
-[TODO: Steve--do you have a simple screenshot for this?]  
-
 
 ## Key Features
 
