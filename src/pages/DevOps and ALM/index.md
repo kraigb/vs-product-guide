@@ -1,7 +1,7 @@
 <properties
     pageTitle="DevOps & ALM"
     description="We like to say that Visual Studio Online is not an IDE, it's everything else."
-    slug="devopsalm"
+    slug="devopsalm2015"
     order="600"    
     keywords="visual studio, visual studio online, vs2015, vs, visualstudio, vso, alm, devops"
 />

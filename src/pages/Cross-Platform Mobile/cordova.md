@@ -27,7 +27,7 @@ As applications become more complex, you need more than just a text editor. You 
 - IntelliSense to help you better understand and code against new APIs
 - Code peek for in-line reference review
 
-For a full list of improvements to the JavaScript editor in Visual Studio 2015, see the JavaScript Editor and IntelliSense section of the [IDE Improvements](../..productivity/ide/) topic.
+For a full list of improvements to the JavaScript editor in Visual Studio 2015, see the JavaScript Editor and IntelliSense section of the [IDE Improvements](../..productivity2015/ide/) topic.
 
 ![JavaScript IntelliSense](_assets/cordova-1.png)
 

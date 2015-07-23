@@ -19,7 +19,7 @@
 - Built-in support for dependency injection
 - Ability to host on IIS or self-host in your own process
 
-ASP.NET 5 also runs on [.NET Framework 4.6](../../windows/windowsnetfx). For more information about Beta 5, see [ASP.NET 5 Beta5 Now Available](http://blogs.msdn.com/b/webdev/archive/2015/06/30/asp-net-5-beta5-now-available.aspx).
+ASP.NET 5 also runs on [.NET Framework 4.6](../../windows2015/windowsnetfx). For more information about Beta 5, see [ASP.NET 5 Beta5 Now Available](http://blogs.msdn.com/b/webdev/archive/2015/06/30/asp-net-5-beta5-now-available.aspx).
 
 ## ASP.NET 4.6
 

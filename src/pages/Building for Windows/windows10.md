@@ -15,7 +15,7 @@ Key features include:
 - Your choice of powerful languages and UI frameworks. You can use Visual Studio 2015 to build in C#, Visual Basic, C++, or JavaScript (including Cordova) and construct UI in XAML, DirectX, or HTML.
 - Easily test and diagnose. Device previews allow you to preview your UX on different devices. Emulators and powerful visual diagnostic tools let you test it at run time.
 - .NET Native makes apps run faster, with up to a 60% increase in startup time.
-- Find out how well your app is doing in the real world. Application Insights gives you real time feedback on what your users are doing with your app. Visual Studio also offers [single-checkbox instrumentation for Application Insights](../../devopsalm/appinsights/).
+- Find out how well your app is doing in the real world. Application Insights gives you real time feedback on what your users are doing with your app. Visual Studio also offers [single-checkbox instrumentation for Application Insights](../../devopsalm2015/appinsights/).
 
 
 ## Reach Android, iOS, and Windows users with Apache Cordova
@@ -72,7 +72,7 @@ Going forward we will be adding new capabilities to the Universal Windows Platfo
 
 All of the capabilities of Visual Studio 2015 are available for Universal Windows apps including the new diagnostic tools, XAML UI debugging, and all of the profiling tools.  Together, these tools make debugging and diagnosing your Windows apps easier than ever.
 
-For details, see the [Debugging & Diagnostics page](../../productivity/debugdiag/) topic.
+For details, see the [Debugging & Diagnostics page](../../productivity2015/debugdiag/) topic.
 
 ## .NET Native for Windows 10 Apps
 

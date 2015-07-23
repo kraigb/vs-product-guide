@@ -1,7 +1,7 @@
 <properties
     pageTitle="Building for Windows"
     description="Windows 10 and the Universal Windows Platform brings new opportunities for developers across the full range of devices running Windows—from PCs to tablets, phones, HoloLens, Surface Hub, and soon Xbox and Raspberry Pi. Visual Studio contines to deliver the best tools for Windows."
-    slug="windows"
+    slug="windows2015"
     order="400"    
     keywords="visual studio, vs2015, vs, visualstudio, windows, windows 10, universal windows apps, universal windows platform"
 />

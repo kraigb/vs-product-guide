@@ -7,10 +7,8 @@
 />
 Azure SDK 2.6 and Azure SDK 2.7 continues to build on innovations in previous releases, and includes the following for Visual Studio 2015.
 
-- [Learn more about the Azure SDK](https://azure.microsoft.com/en-us/develop/net/).
-- [Download the Azure SDK for .NET](http://azure.microsoft.com/en-us/downloads/archive-net-downloads/)
-
-
+![](_assets/download_green.png) *[Download the Azure SDK for .NET](http://azure.microsoft.com/en-us/downloads/archive-net-downloads/). Not included with Visual Studio 2015 setup.*
+<hr/>
 
 ### Azure Resource Manager Tools
 
@@ -146,3 +144,7 @@ Cloud Explorer is built on the Azure resource manager stack, just like the Micro
 ### Azure Data Factory Tools
 
 Now included in Azure SDK 2.7 are the Azure Data Factory Tools. The goal is to simplify the Azure Data Factory authoring experience and remove on-boarding and deployment challenges. The Azure Data Factory Tools improve productivity and efficiency for both new and advanced users with tailored experiences and rich tooling. With this release, you can interactively author and deploy data pipelines using the Visual Studio interface. See the [Azure Data Factory blog post](http://go.microsoft.com/fwlink/?linkid=617530) for more information about these tools.
+
+<hr/>
+
+[Learn more about the Azure SDK](https://azure.microsoft.com/en-us/develop/net/).

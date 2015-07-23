@@ -6,9 +6,11 @@
     keywords="visual studio, vs2015, vs, visualstudio, cross-platform, server, linux, windows, languages, node, node.js"
 />
 
+![](_assets/download_green.png) *Download this extension from [Node.js Tools for Visual Studio (NTVS)](http://aka.ms/ntvslatest). Not included with Visual Studio 2015 setup.*
 
+<hr/>
 
-[Node.js Tools for Visual Studio (NTVS)](http://aka.ms/ntvslatest) is a free, open-source extension that turns Visual Studio into a Node.js IDE. It enables you to unleash the full power of Visual Studio to develop and deploy Node.js solutions with our broad range of features: IntelliSense, advanced debugging and profiling, npm Integration, unit testing, interactive window, source control, cloud deployment, and more.
+Node.js Tools for Visual Studio (NTVS) is a free, open-source extension that turns Visual Studio into a Node.js IDE. It enables you to unleash the full power of Visual Studio to develop and deploy Node.js solutions with our broad range of features: IntelliSense, advanced debugging and profiling, npm Integration, unit testing, interactive window, source control, cloud deployment, and more.
 
 ![Node.js tools](_assets/node-12.jpg)
 

@@ -26,8 +26,8 @@ ADO .NET  supports the Always Encrypted feature available in SQL Server 2016 Com
 - Transparent child windows
 - Customer reports on Microsoft Connect that touch produces unpredictable behavior have been addressed in the .NET Framework 4.6. The double tap threshold for Windows store apps and WPF apps is now the same in Windows 8.1 and above.
 - Multi-image cursor files
-- [New set of Visual Diagnostics tools](../../productivity/debugdiag/)
-- [Timeline tool in the Performance and Diagnostics hub](../../productivity/debugdiag/)
+- [New set of Visual Diagnostics tools](../../productivity2015/debugdiag/)
+- [Timeline tool in the Performance and Diagnostics hub](../../productivity2015/debugdiag/)
 
 ## Windows Communication Foundation improvements
 

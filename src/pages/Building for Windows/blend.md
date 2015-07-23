@@ -32,7 +32,7 @@ A new XAML language service provides you with faster and better XAML IntelliSens
 
 ## UI tools for XAML debugging
 
-Blend includes tools for inspecting XAML at runtime. These tools enable you to inspect the visual tree of your running app and the properties of any element in the tree to make it easier to debug your XAML. To learn more, see see the [Debugging & Diagnostics page](../../productivity/debugdiag/) topic.
+Blend includes tools for inspecting XAML at runtime. These tools enable you to inspect the visual tree of your running app and the properties of any element in the tree to make it easier to debug your XAML. To learn more, see see the [Debugging & Diagnostics page](../../productivity2015/debugdiag/) topic.
 
 ![UI tools for XAML debugging](_assets/blend-2.png)
 

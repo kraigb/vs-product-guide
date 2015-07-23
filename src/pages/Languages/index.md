@@ -1,7 +1,7 @@
 <properties
     pageTitle="Languages"
     description="Visual Studio 2015 delivers updates to its most popular programming languages."
-    slug="languages"
+    slug="languages2015"
     order="550"    
     keywords="visual studio, vs2015, vs, visualstudio, languages"
 />

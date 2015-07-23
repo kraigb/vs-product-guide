@@ -6,6 +6,9 @@
     keywords="visual studio, vs2015, vs, visualstudio, cross-platform, mobile apps, iOS, Android, Windows Phone, Unity"
 />
 
+![](_assets/download_green.png) *Download this extension from [Visual Studio 2015 Tools for Unity](https://visualstudiogallery.msdn.microsoft.com/8d26236e-4a64-4d64-8486-7df95156aba9). Not included with Visual Studio 2015 setup.*
+<hr/>
+
 Unity is a game engine and development environment for creating cross-platform games. The Unity engine runs on over a dozen platforms spanning from powerful PCs, to game consoles, to touch-enabled tablets and mobile phones—even to the web. The Unity editor provides a friendly interface for building rich game worlds. The capability, ease-of-use, and reach of Unity make it a popular choice among today's game developers.
 
 The Unity editor is great for putting your game world together, but you can't write your code in it. With Visual Studio Tools for Unity, you can use the familiar code editing and productivity features of Visual Studio to create editor and game scripts for your Unity game using C#, and you can debug them using Visual Studio's powerful debugging capabilities.
