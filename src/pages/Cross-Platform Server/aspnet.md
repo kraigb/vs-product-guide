@@ -92,6 +92,8 @@ In the example below, the XDocument type (just the text XDocument) is resolved t
 
 ![Resolving a type definition](_assets/aspnet-6.png)
 
+This feature works for NuGet packages that the Visual Studio user has downloaded at least once for another project or another solution on the same computer.
+
 ## IntelliSense and error list
 
 An IntelliSense item that exists in one framework, but not in another will be listed in the IntelliSense with a warning sign. The IntelliSense tooltip indicates which framework supports it and which framework doesn't.
