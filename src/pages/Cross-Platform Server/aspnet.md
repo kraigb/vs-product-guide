@@ -11,7 +11,7 @@
 [ASP.NET 5](http://www.asp.net/vnext) is an open source web framework for building modern web applications that can be developed and run on Windows, Linux and the Mac. It includes the MVC 6 framework, which now combines the features of MVC and Web API into a single web programming framework. With ASP.NET 5 you gain the following foundational improvements over earlier versions of ASP.NET:
 
 - Build and run cross-platform ASP.NET apps on Windows, Mac and Linux
-- Built on [.NET Core](netcore), which supports true side-by-side app versioning 
+- Runs on [.NET Core](netcore) and Mono, in addition to .NET Framework 4.5.1 and later, including [.NET Framework 4.6](../../windows2015/windowsnetfx)
 - Single aligned web stack for Web UI and Web APIs
 - New tooling that simplifies modern Web development
 - Cloud-ready environment-based configuration
@@ -19,7 +19,7 @@
 - Built-in support for dependency injection
 - Ability to host on IIS or self-host in your own process
 
-ASP.NET 5 also runs on [.NET Framework 4.6](../../windows2015/windowsnetfx). For more information about Beta 5, see [ASP.NET 5 Beta5 Now Available](http://blogs.msdn.com/b/webdev/archive/2015/06/30/asp-net-5-beta5-now-available.aspx).
+ASP.NET 5 also runs on . For more information about Beta 5, see [ASP.NET 5 Beta5 Now Available](http://blogs.msdn.com/b/webdev/archive/2015/06/30/asp-net-5-beta5-now-available.aspx).
 
 ## ASP.NET 4.6
 
