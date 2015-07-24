@@ -102,6 +102,8 @@ Build errors show which target framework the error is from. So, if you have an e
 
 ![Build errors](_assets/aspnet-2.png)
 
+You can use `#if` compiler directives with framework names such as DNX451 or DNXCORE50 to write code that only runs on one frramework, and you can switch the framework you get errors for by selecting the framework in the drop-down list at the top left of the code window.
+
 ## JSON Editor
 
 Visual Studio 2015 makes improvements in the JSON editor, including performance improvements such as loading JSON schema asynchronously, caching of child schemas, and better IntelliSense. Here are some other new features:
